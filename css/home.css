@@ -1,0 +1,79 @@
+nav {
+  background-color: white;
+  padding: 15px;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+a#nav-qui-sommes-nous {
+  color: orange;
+}
+
+a#nav-les-outils {
+  color: darkviolet;
+}
+
+nav ul li+li {
+  border-left: 1px solid darkslategrey;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.title {
+  background-image: url('../img/office.jpg');
+  background-attachment: fixed;
+  background-position: top -99px center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title h1 {
+
+}
+
+section {
+  padding: 3em 0;
+  text-align: center;
+}
+
+section h2 {
+  letter-spacing: 4px;
+}
+
+section#qui-sommes-nous {
+  background-color: deepskyblue;
+}
+
+ul.outils {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ul.outils li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  border-radius: 50%;
+  height: 15vw;
+  width: 15vw;
+  margin: 25px 7vw;
+  background-color: deepskyblue;
+  color: white;
+}
