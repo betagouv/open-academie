@@ -1,6 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+b, strong {
+  font-weight: 800;
+}
+
 nav {
   background-color: white;
   padding: 15px;
@@ -27,7 +32,7 @@ a#nav-les-outils {
 }
 
 nav ul li+li {
-  border-left: 1px solid darkslategrey;
+  border-left: 1px solid darkcyan;
   margin-left: 15px;
   padding-left: 15px;
 }
@@ -35,10 +40,11 @@ nav ul li+li {
 .title {
   background-image: url('../img/office.jpg');
   background-attachment: fixed;
-  background-position: top -99px center;
+  background-position: top -150px center;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 400px;
+  min-height: 25em;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +52,17 @@ nav ul li+li {
 }
 
 .title h1 {
+  font-size: 5em;
+  color: dodgerblue;
+  font-weight: 800;
+  margin-bottom: 0;
+}
 
+.title p {
+  font-size: 2em;
+  max-width: 900px;
+  text-align: center;
+  color: white;
 }
 
 section {
@@ -59,7 +75,23 @@ section h2 {
 }
 
 section#qui-sommes-nous {
-  background-color: deepskyblue;
+  background-color: dimgrey;
+}
+
+section#qui-sommes-nous h2 {
+  color: orange;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+section#qui-sommes-nous p {
+  color: white;
+  letter-spacing: 2px;
+}
+
+#arrow-down {
+  width: 100px;
+  height: 100px;
 }
 
 ul.outils {
@@ -77,6 +109,6 @@ ul.outils li {
   height: 15vw;
   width: 15vw;
   margin: 25px 7vw;
-  background-color: deepskyblue;
+  background-color: darkcyan;
   color: white;
 }
