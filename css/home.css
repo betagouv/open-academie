@@ -7,8 +7,16 @@ b, strong {
 }
 
 nav {
+  position: relative;
   background-color: white;
   padding: 15px;
+}
+
+nav img {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 50px;
 }
 
 nav ul {
