@@ -109,6 +109,32 @@ ul.outils li {
   height: 15vw;
   width: 15vw;
   margin: 25px 7vw;
-  background-color: darkcyan;
+}
+
+.mobilisco {
   color: white;
+  background-color: mediumvioletred;
+}
+
+.bourse {
+  color: white;
+  background-color: dodgerblue;
+}
+
+.cogefi {
+  background-color: lightsalmon;
+}
+
+.dossiersco {
+  background-color: mediumaquamarine;
+}
+
+.gemasco {
+  color: white;
+  background-color: tomato;
+}
+
+.votre-projet {
+  color: mediumorchid;
+  border: 2px dashed mediumorchid;
 }
