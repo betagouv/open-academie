@@ -7,15 +7,17 @@ b, strong {
 }
 
 nav {
-  position: relative;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gainsboro;
+  align-items: center;
+  width: 100vw;
   background-color: white;
-  padding: 15px;
+  height: 50px;
 }
 
 nav img {
-  position: absolute;
-  right: 10px;
-  top: 0;
   height: 50px;
 }
 
@@ -29,6 +31,10 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   color: darkslategrey;
+}
+
+main {
+
 }
 
 a#nav-qui-sommes-nous {
