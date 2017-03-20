@@ -93,10 +93,11 @@ section p.subtitle {
   font-size: 2em;
   font-weight: 200;
   color: #999999;
-  width: 80vw;
+  width: 70vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
+  text-align: center;
 }
 
 section#qui-sommes-nous {
@@ -123,31 +124,41 @@ section#qui-sommes-nous p {
 ul.outils {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0;
-  width: 80vw;
+  width: 60vw;
   margin: auto;
 }
 
+ul.outils li:nth-child(2n+1) {
+  padding-right: 65px;
+}
+
+ul.outils li:nth-child(2n) {
+  padding-left: 65px;
+}
+
 ul.outils li {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   list-style-type: none;
-  width: 38vw;
-  margin-bottom: 4em;
+  width: 22vw;
+  padding-bottom: 65px;
 }
 
 ul.outils li h3 {
-  margin-top: 0;
+  font-weight: 200;
+  font-size: 1.2em;
 }
 
-ul.outils li div {
+ul.outils li div.logo-title {
+  width: 30%;
+  text-align: center;
+}
+
+ul.outils li div.content {
   width: 50%;
 }
 
 a.logo {
-  margin: 25px;
   width: 100px;
   height: 100px;
   border: 2px solid;
@@ -162,8 +173,12 @@ a.logo img {
 }
 
 .tagline {
-  font-style: italic;
   font-weight: 200;
+  margin: 0 0 1em 0;
+}
+
+.description {
+  margin-top: 0;
 }
 
 .mobilisco a {
@@ -214,6 +229,10 @@ a.logo img {
 .votre-projet a {
   border-color: #ffd966;
   color: #ffd966;
+}
+
+.votre-projet a.logo {
+  background-color: #ffd966;
 }
 
 .votre-projet h3 {
