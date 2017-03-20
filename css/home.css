@@ -81,15 +81,27 @@ nav ul li+li {
 
 section {
   padding: 3em 0;
-  text-align: center;
 }
 
 section h2 {
-  letter-spacing: 4px;
+  font-size: 4em;
+  font-weight: 400;
+  text-align: center;
+}
+
+section p.subtitle {
+  font-size: 2em;
+  font-weight: 200;
+  color: #999999;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
 }
 
 section#qui-sommes-nous {
   background-color: dimgrey;
+  text-align: center;
 }
 
 section#qui-sommes-nous h2 {
@@ -110,45 +122,100 @@ section#qui-sommes-nous p {
 
 ul.outils {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  width: 80vw;
+  margin: auto;
 }
 
 ul.outils li {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   list-style-type: none;
+  width: 38vw;
+  margin-bottom: 4em;
+}
+
+ul.outils li h3 {
+  margin-top: 0;
+}
+
+ul.outils li div {
+  width: 50%;
+}
+
+a.logo {
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
   border-radius: 50%;
-  height: 15vw;
-  width: 15vw;
-  margin: 25px 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.mobilisco {
-  color: white;
-  background-color: mediumvioletred;
+a.logo img {
+  width: 80%;
 }
 
-.bourse {
-  color: white;
-  background-color: dodgerblue;
+.tagline {
+  font-style: italic;
+  font-weight: 200;
 }
 
-.cogefi {
-  background-color: lightsalmon;
+.mobilisco a {
+  border-color: #fb2058;
+  color: #fb2058;
 }
 
-.dossiersco {
-  background-color: mediumaquamarine;
+.mobilisco h3 {
+  color: #fb2058;
 }
 
-.gemasco {
-  color: white;
-  background-color: tomato;
+.bourse a {
+  border-color: #ff7b19;
+  color: #ff7b19;
 }
 
-.votre-projet {
-  color: mediumorchid;
-  border: 2px dashed mediumorchid;
+.bourse h3 {
+  color: #ff7b19;
+}
+
+.cogefi a {
+  border-color: #24b47e;
+  color: #24b47e;
+}
+
+.cogefi h3 {
+  color: #24b47e;
+}
+
+.dossiersco a {
+  border-color: #29adad;
+  color: #29adad;
+}
+
+.dossiersco h3 {
+  color: #29adad;
+}
+
+.gemasco a {
+  border-color: #d43583;
+  color: #d43583;
+}
+
+.gemasco h3 {
+  color: #d43583;
+}
+
+.votre-projet a {
+  border-color: #ffd966;
+  color: #ffd966;
+}
+
+.votre-projet h3 {
+  color: #ffd966;
 }
