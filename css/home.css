@@ -6,10 +6,13 @@ b, strong {
   font-weight: 800;
 }
 
+/*
+  ------- Navigation - Navbar
+*/
 nav {
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-bottom: 1px solid gainsboro;
   align-items: center;
   width: 100vw;
@@ -21,36 +24,145 @@ nav img {
   height: 50px;
 }
 
-nav ul {
+nav ul#menu {
   margin: 0;
   display: flex;
   list-style-type: none;
+  height: 50px;
+  align-items: center;
 }
 
-nav ul li a {
+nav ul#menu li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul#menu li a {
   text-transform: uppercase;
   text-decoration: none;
   color: darkslategrey;
 }
 
-main {
-
-}
-
-a#nav-qui-sommes-nous {
-  color: orange;
-}
-
-a#nav-les-outils {
-  color: darkviolet;
-}
-
-nav ul li+li {
-  border-left: 1px solid darkcyan;
+nav ul#menu li+li {
   margin-left: 15px;
   padding-left: 15px;
 }
 
+nav ul#menu li#nav-qui-sommes-nous a {
+  color: orange;
+}
+
+nav ul#menu li#nav-les-outils a {
+  color: darkviolet;
+}
+
+/*
+  ------- Navigation - Menu
+*/
+.dropdown {
+  position: absolute;
+  z-index: 1000;
+  left: 200px;
+  top: 49px;
+  pointer-events: none;
+  opacity: 0;
+  will-change: opacity;
+  transition-property: opacity;
+  transition-duration: .25s;
+  display: block;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  top: -6px;
+  left: 75px;
+  margin: 0 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 4px 0 0 0;
+  background: #fff;
+  box-shadow: -3px -3px 5px rgba(82,95,127,.04);
+  transform: rotate(45deg);
+}
+
+.dropdown-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+  width: 590px;
+  height: 340px;
+}
+
+.dropdown-container {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 520px;
+  height: 300px;
+  padding: 20px 35px;
+}
+
+.dropdown.dropdown-active,
+.dropdown.link-active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+}
+
+.dropdown.dropdown-active .dropdown-background,
+.dropdown.link-active .dropdown-background {
+  transform: rotate(0) scaleX(1) scaleY(1);
+  transform-origin: 0 0;
+}
+
+ul.tools-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px -10px;
+  list-style: none;
+  padding: 0;
+}
+
+ul.tools-group li {
+  display: flex;
+  flex: 1 0 50%;
+}
+
+ul.tools-group li a.link-container {
+  padding: 18px 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+ul.tools-group li a.link-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.link-content {
+  margin-left: 20px;
+}
+
+.link-content h3 {
+  margin: 0;
+}
+
+.link-content p {
+  color: #797979;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/*
+  ------- Home - Header
+*/
 .title {
   background-image: url('../img/office.jpg');
   background-attachment: fixed;
@@ -79,6 +191,9 @@ nav ul li+li {
   color: white;
 }
 
+/*
+  ------- Home - Sections
+*/
 section {
   padding: 3em 0;
 }
@@ -121,6 +236,9 @@ section#qui-sommes-nous p {
   height: 100px;
 }
 
+/*
+  ------- Home - Section Outils
+*/
 ul.outils {
   display: flex;
   flex-wrap: wrap;
@@ -181,6 +299,9 @@ a.logo img {
   margin-top: 0;
 }
 
+/*
+  ------- Colors
+*/
 .mobilisco a {
   border-color: #fb2058;
   color: #fb2058;

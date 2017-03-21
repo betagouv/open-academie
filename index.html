@@ -1,7 +1,7 @@
 <!doctype html>
 
 <html lang="en">
-<header>
+<head>
   <meta charset="utf-8">
 
   <title>Open Académie</title>
@@ -11,19 +11,88 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
   <link rel="stylesheet" href="css/home.css">
-</header>
+  <script src="js/navdropdown.js"></script>
+</head>
 
 <body>
   <nav>
-    <ul>
-      <li><a href="" id="nav-qui-sommes-nous">Qui sommes-nous ?</a></li>
-      <li><a href="#les-outils" id="nav-les-outils">Les outils</a></li>
+    <ul id="menu">
+      <li id="nav-qui-sommes-nous"><a href="">Qui sommes-nous ?</a></li>
+      <li id="nav-les-outils"><a href="#les-outils">Les outils</a></li>
       <li><a href="">Le pole admin</a></li>
       <li><a href="">La communauté Open Académie</a></li>
       <li><a href="">En savoir +</a></li>
     </ul>
 
     <img src="img/sgmap.png" alt="Logo du SGMAP">
+
+    <div class="dropdown" id="nav-dropdown">
+      <div class="dropdown-background"></div>
+      <div class="dropdown-arrow"></div>
+      <div class="dropdown-container">
+        <ul class="tools-group">
+          <li class="mobilisco">
+            <a class="link-container" href="">
+              <img src="img/mobilisco.png" alt="">
+              <div class="link-content">
+                <h3>Mobilisco</h3>
+                <p class="tagline">Les voyages scolaires cessent d’être un enfer</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="bourse">
+            <a class="link-container" href="">
+              <img src="img/mobilisco.png" alt="">
+              <div class="link-content">
+                <h3>Bourse</h3>
+                <p class="tagline">Vos demandes de bourses sans papier</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="cogefi">
+            <a class="link-container" href="">
+              <img src="img/mobilisco.png" alt="">
+              <div class="link-content">
+                <h3>Cogefi</h3>
+                <p class="tagline">Le logiciel d’analyse financière des EPLE</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="dossiersco">
+            <a class="link-container" href="">
+              <img src="img/mobilisco.png" alt="">
+              <div class="link-content">
+                <h3>DossierSco</h3>
+                <p class="tagline">Gérer les inscriptions des élèves de A à Z </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="gemasco">
+            <a class="link-container" href="">
+              <img src="img/mobilisco.png" alt="">
+              <div class="link-content">
+                <h3>Gemasco</h3>
+                <p class="tagline">Gérer les inscriptions des élèves de A à Z</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="votre-projet">
+            <a class="link-container" href="">
+              <img src="img/mobilisco.png" alt="">
+              <div class="link-content">
+                <h3>Votre Projet</h3>
+                <p class="tagline">L’open académicien, c’est vous !</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <main>
