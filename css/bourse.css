@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 4em 20px;
+  padding: 4em 20px 2em;
 }
 
 .bourse img {
@@ -21,35 +21,37 @@
 
 section#brief p {
   margin: 0;
-  margin-top: 40px;
-  padding: 25px 200px;
+  margin-top: 65px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: 35px;
   font-size: 1.1em;
 }
 
 section#timeline {
   padding: 25px;
+  max-width: 350px;
 }
 
 section#timeline h2 {
-  padding-left: 150px;
+  padding-left: 40px;
   color: #29adad;
   margin: 0;
   font-size: 1.2em;
 }
 
 section#timeline ul {
-  padding-left: 165px;
+  padding-left: 15px;
 }
 
 section#timeline li {
   margin: 15px 0;
-  max-width: 250px;
   margin-left: 25px;
 }
 
 section#corporate {
   width: 100%;
-  margin: 4em 0;
+  margin: 2em 0;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,7 +65,6 @@ section#corporate p {
   width: 250px;
   font-weight: 200;
   line-height: 1.4em;
-  letter-spacing: 1px;
 }
 
 #simple {
