@@ -1,0 +1,97 @@
+.outil-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4em 20px;
+}
+
+.bourse img {
+  height: 150px
+}
+
+.bourse h1 {
+  color: #29adad;
+  font-weight: 400;
+}
+
+.bourse p {
+  color: #797979;
+  font-size: 1.3em;
+}
+
+section#brief p {
+  margin: 0;
+  margin-top: 40px;
+  padding: 25px 200px;
+  font-size: 1.1em;
+}
+
+section#timeline {
+  padding: 25px;
+}
+
+section#timeline h2 {
+  padding-left: 150px;
+  color: #29adad;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+section#timeline ul {
+  padding-left: 165px;
+}
+
+section#timeline li {
+  margin: 15px 0;
+  max-width: 250px;
+  margin-left: 25px;
+}
+
+section#corporate {
+  width: 100%;
+  margin: 4em 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#corporate h2 {
+  font-weight: 200;
+}
+
+section#corporate p {
+  width: 250px;
+  font-weight: 200;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+
+#simple {
+  color: #ff7b19;
+}
+
+#gratuit {
+  color: #29adad;
+}
+
+#collaboratif {
+  color: #fb2058;
+}
+
+section#corporate div {
+  width: 30%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  #brief-timeline {
+    display: flex;
+  }
+
+  #brief-timeline section {
+    width: 50%;
+  }
+}
