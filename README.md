@@ -1,4 +1,3 @@
-# open-academies
+# Open Académie
 
- - Mettre à jour le titre de la page
- - Mettre à jour l'image
+Des outils numériques d’administration scolaire créés par des agents, pour des agents
