@@ -277,18 +277,9 @@ ul.outils li div.content {
   width: 50%;
 }
 
-a.logo {
+a.logo img {
   width: 100px;
   height: 100px;
-  border: 2px solid;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-a.logo img {
-  width: 80%;
 }
 
 .tagline {
@@ -303,60 +294,27 @@ a.logo img {
 /*
   ------- Colors
 */
-.mobilisco a {
-  border-color: #fb2058;
-  color: #fb2058;
-}
-
+.mobilisco a,
 .mobilisco h3 {
+  color: #24b47e;
+}
+
+.bourse a,
+.bourse h3 {
+  color: #29adad;
+}
+
+.cogefi a,
+.cogefi h3 {
   color: #fb2058;
 }
 
-.bourse a {
-  border-color: #ff7b19;
-  color: #ff7b19;
-}
-
-.bourse h3 {
-  color: #ff7b19;
-}
-
-.cogefi a {
-  border-color: #24b47e;
-  color: #24b47e;
-}
-
-.cogefi h3 {
-  color: #24b47e;
-}
-
-.dossiersco a {
-  border-color: #29adad;
-  color: #29adad;
-}
-
-.dossiersco h3 {
-  color: #29adad;
-}
-
-.gemasco a {
-  border-color: #d43583;
-  color: #d43583;
-}
-
+.gemasco a,
 .gemasco h3 {
-  color: #d43583;
+  color: #ff7b19;
 }
 
-.votre-projet a {
-  border-color: #ffd966;
-  color: #ffd966;
-}
-
-.votre-projet a.logo {
-  background-color: #ffd966;
-}
-
+.votre-projet a,
 .votre-projet h3 {
   color: #ffd966;
 }
