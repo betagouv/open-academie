@@ -20,10 +20,6 @@ nav {
   height: 50px;
 }
 
-nav img {
-  height: 50px;
-}
-
 nav ul#menu {
   margin: 0;
   display: flex;
@@ -53,10 +49,16 @@ nav ul#menu li#nav-qui-sommes-nous a {
   color: orange;
 }
 
-nav ul#menu li#nav-les-outils a {
-  color: darkviolet;
-}
+@media (max-width: 768px) {
+  nav ul#menu {
+    font-size: 0.4em;
+  }
 
+  nav ul#menu li+li {
+    margin-left: 5px;
+    padding-left: 5px;
+  }
+}
 /*
   ------- Navigation - Menu
 */
@@ -168,7 +170,7 @@ ul.tools-group li a.link-container img {
   background-image: url('../img/homepage.jpg');
   background-attachment: fixed;
   background-position: top center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 25em;
   height: 75vh;
@@ -179,6 +181,18 @@ ul.tools-group li a.link-container img {
   flex-direction: column;
 }
 
+.title img {
+  position: absolute;
+  right: 20px;
+  height: 110px;
+}
+
+@media (max-width: 768px) {
+  .title img {
+    display: none;
+  }
+}
+
 .title-description {
   display: flex;
   flex-direction: column;
@@ -186,14 +200,21 @@ ul.tools-group li a.link-container img {
 }
 
 .title h1 {
-  font-size: 5em;
-  margin-top: 2em;
+  font-size: 4em;
   color: #26a69a;
-  font-weight: 800;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .title h1 {
+    font-size: 6em;
+    margin-top: 1.3em;
+  }
 }
 
 .title p {
-  font-size: 2em;
+  font-size: 1.4em;
   max-width: 900px;
   text-align: center;
   color: white;
@@ -204,10 +225,12 @@ ul.tools-group li a.link-container img {
   padding: 0;
   margin: 0;
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .title .btn {
-  margin: 20px;
+  margin: 10px 20px;
   color: #fff;
   background-color: #26a69a;
   text-decoration: none;
@@ -219,7 +242,7 @@ ul.tools-group li a.link-container img {
   border: none;
   border-radius: 2px;
   display: inline-block;
-  height: 45px;
+  min-height: 45px;
   line-height: 45px;
   padding: 0 2rem;
   text-transform: uppercase;
@@ -325,6 +348,25 @@ a.logo img {
 
 .description {
   margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  ul.outils {
+    width: 90vw;
+  }
+  ul.outils li {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul.outils li:nth-child(2n+1) {
+    padding-right: 0;
+  }
+
+  ul.outils li:nth-child(2n) {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 
 /*
