@@ -1,0 +1,21 @@
+{
+  "name": "open-academie-next",
+  "version": "1.0.0",
+  "repository": "git@github.com:sgmap/open-academie-next.git",
+  "author": "Florian Delezenne <del.florian@gmail.com>",
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-router-dom": "^4.0.0",
+    "react-router-hash-link": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

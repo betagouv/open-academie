@@ -1,8 +1,8 @@
 /*
-  ------- Home - Header
+  Header
 */
 .title {
-  background-image: url('../img/homepage.jpg');
+  background-image: url('../public/img/homepage.jpg');
   background-attachment: fixed;
   background-position: top center;
   background-size: cover;
@@ -87,7 +87,7 @@
 }
 
 /*
-  ------- Home - Sections
+  Sections
 */
 section {
   padding: 3em 0;
@@ -129,4 +129,77 @@ section#qui-sommes-nous p {
 #arrow-down {
   width: 100px;
   height: 100px;
+}
+
+/*
+  Outils
+*/
+ul.outils {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  width: 60vw;
+  margin: auto;
+}
+
+ul.outils li:nth-child(2n+1) {
+  padding-right: 65px;
+}
+
+ul.outils li:nth-child(2n) {
+  padding-left: 65px;
+}
+
+ul.outils li {
+  list-style-type: none;
+  width: 22vw;
+  padding-bottom: 65px;
+}
+
+ul.outils li h3 {
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+ul.outils li div.logo-title {
+  width: 30%;
+  text-align: center;
+}
+
+ul.outils li div.content {
+  width: 50%;
+}
+
+a.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.tagline {
+  font-weight: 200;
+  margin: 0 0 0.6em 0;
+}
+
+.description {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  ul.outils {
+    width: 90vw;
+  }
+  ul.outils li {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul.outils li:nth-child(2n+1) {
+    padding-right: 0;
+  }
+
+  ul.outils li:nth-child(2n) {
+    width: 100%;
+    padding-left: 0;
+  }
 }
