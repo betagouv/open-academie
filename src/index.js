@@ -12,7 +12,6 @@ ReactDOM.render(
   <Router>
     <div>
       <Menu />
-
       <Route exact path="/" component={Home}/>
       <Route path="/bourse" component={Bourse}/>
     </div>
