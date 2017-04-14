@@ -12,6 +12,7 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
-    "dev": "next"
+    "dev": "next",
+    "postinstall": "yarn build"
   }
 }
