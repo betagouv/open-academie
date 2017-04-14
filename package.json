@@ -10,7 +10,7 @@
     "react-dom": "^15.5.3"
   },
   "scripts": {
-    "start": "next start",
+    "start": "next start -p $PORT",
     "build": "next build",
     "dev": "next",
     "postinstall": "yarn build"
