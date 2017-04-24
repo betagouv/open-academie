@@ -5,8 +5,8 @@ const Timeline = ({ title, items }) => (
     <h2>{ title }</h2>
     <ul>
       {
-        items.map(({ date, description }) => {
-          return <li><strong>{ date }&nbsp;:</strong> { description }</li>
+        items.map(({ date, description }, idx) => {
+          return <li key={ idx }><strong>{ date }&nbsp;:</strong> { description }</li>
         })
       }
     </ul>
