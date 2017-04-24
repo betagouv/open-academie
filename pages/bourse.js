@@ -2,6 +2,10 @@ import React from 'react'
 import Layout from '../components/layout'
 import Timeline from '../components/timeline'
 import Brief from '../components/brief'
+import ProductHead from '../components/product-head'
+import { Products } from '../components/constants'
+
+const constant = Products.find(product => product.id === 'bourse')
 
 const timelineItems = [
   {
@@ -24,33 +28,7 @@ const downloadLink = {
 const Bourse = () => (
   <Layout>
     <main>
-      <div>
-        <img src="static/hat.png" alt="" />
-        <h1>Bourse</h1>
-        <p>Vos demandes de bourse gérées sans la moindre feuille de papier</p>
-        <style jsx>{`
-          div {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            padding: 4em 20px 2em;
-          }
-
-          img {
-            height: 150px
-          }
-
-          h1 {
-            color: #29adad;
-            font-weight: 400;
-          }
-
-          p {
-            color: #797979;
-            font-size: 1.3em;
-          }
-        `}</style>
-      </div>
+      <ProductHead constant={constant} />
 
       <div>
         <Brief

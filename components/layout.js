@@ -14,6 +14,8 @@ export default ({ children, title = 'Open Académie' }) => (
 
     <Menu />
 
-    { children }
+    <div style={{ paddingTop: '50px' }}>
+      { children }
+    </div>
   </div>
 )

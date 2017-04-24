@@ -110,10 +110,6 @@ class Menu extends Component {
             }
           }
 
-          main {
-            padding-top: 50px;
-          }
-
           .dropdown {
             position: absolute;
             z-index: 1000;
