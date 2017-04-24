@@ -85,10 +85,12 @@ const Bourse = () => (
         <style jsx>{`
           section {
             width: 100%;
-            margin: 2em 0;
+            margin-top: 2em;
             display: inline-flex;
             flex-wrap: wrap;
             justify-content: center;
+            background-color: #f5f5f9;
+            padding: 2em 0;
           }
 
           h2 {
