@@ -1,17 +1,18 @@
 import React from 'react'
 
-const Brief = ({ description, downloadLink }) => (
+const Brief = ({ description, downloadComponent }) => (
   <section>
     <p>
       { description }
     </p>
 
-    <p>
-      Les demandes se font directement sur <a href={ downloadLink.href }>{ downloadLink.label }</a>
-    </p>
+    <div>
+      { downloadComponent }
+    </div>
 
     <style jsx>{`
-      p {
+      p,
+      div {
         margin: 0;
         margin-top: 65px;
         max-width: 350px;

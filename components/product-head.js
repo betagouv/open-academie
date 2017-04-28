@@ -9,6 +9,11 @@ const ProductHead = ({ constant }) => {
       <h1 style={{ color }}>{ title }</h1>
       <p>{ tagline }</p>
       <style jsx>{`
+        div {
+          text-align: center;
+          padding: 3em 0;
+        }
+
         img {
           height: 150px
         }

@@ -1,7 +1,7 @@
 export const Products = [
   {
     id: 'mobilisco',
-    page: '',
+    page: '/mobilisco',
     title: 'Mobilisco',
     tagline: 'Les voyages scolaires cessent d’être un enfer',
     description: 'Un logiciel de gestion de vos voyages scolaires, depuis l’inscription des élèves jusqu’au bilan financier',
@@ -18,6 +18,10 @@ export const Products = [
     imageSource: 'static/hat.png',
     color: '#29adad',
     background: '',
+    downloadLink: {
+      label: 'bourse.beta.gouv.fr',
+      href: 'https://bourse.beta.gouv.fr',
+    },
   },
   {
     id: 'cogefi',

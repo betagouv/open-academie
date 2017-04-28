@@ -20,10 +20,7 @@ const timelineItems = [
   },
 ]
 
-const downloadLink = {
-  label: 'bourse.beta.gouv.fr',
-  href: 'https://bourse.beta.gouv.fr'
-}
+const downloadComponent = <p>Les demandes se font directement sur <a href={ constant.downloadLink.href }>{ constant.downloadLink.label }</a></p>
 
 const Bourse = () => (
   <Layout>
@@ -32,8 +29,8 @@ const Bourse = () => (
 
       <div>
         <Brief
-          description="Bourse est outil de demande en ligne de bourse de collège, pour le bonheur des parents comme des intendants."
-          downloadLink={downloadLink} />
+          description={constant.description}
+          downloadComponent={downloadComponent} />
 
         <Timeline title="Brève de bourse" items={timelineItems} />
 
