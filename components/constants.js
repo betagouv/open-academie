@@ -64,3 +64,7 @@ export const Products = [
     background: 'static/votre-projet.jpg',
   }
 ]
+
+export const Colors = {
+  primary: '#26a69a',
+}

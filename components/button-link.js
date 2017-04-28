@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { Colors } from '../components/constants'
 
 const ButtonLink = ({ href, text, className }) => (
   <div>
@@ -30,7 +31,7 @@ const ButtonLink = ({ href, text, className }) => (
       }
 
       .primary {
-        background-color: #26a69a;
+        background-color: Colors.primary;
       }
 
       .muted {

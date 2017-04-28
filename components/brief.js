@@ -17,7 +17,7 @@ const Brief = ({ description, downloadComponent }) => (
         margin-top: 65px;
         max-width: 350px;
         margin-left: auto;
-        margin-right: 35px;
+        margin-right: 125px;
         font-size: 1.1em;
       }
 
