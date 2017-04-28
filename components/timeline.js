@@ -2,17 +2,23 @@ import React from 'react'
 
 const Timeline = ({ title, items }) => (
   <section>
-    <h2>{ title }</h2>
-    <ul>
-      {
-        items.map(({ date, description }, idx) => {
-          return <li key={ idx }><strong>{ date }&nbsp;:</strong> { description }</li>
-        })
-      }
-    </ul>
+    <div>
+      <h2>{ title }</h2>
+      <ul>
+        {
+          items.map(({ date, description }, idx) => {
+            return <li key={ idx }><strong>{ date }&nbsp;:</strong> { description }</li>
+          })
+        }
+      </ul>
+    </div>
     <style jsx>{`
       section {
         padding: 25px;
+        background-color: #f5f5f9;
+      }
+
+      div {
         max-width: 350px;
       }
 

@@ -68,6 +68,7 @@ class Menu extends Component {
             width: 100vw;
             background-color: white;
             height: 50px;
+            z-index: 1;
           }
 
           nav ul#menu {

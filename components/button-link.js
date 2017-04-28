@@ -31,7 +31,7 @@ const ButtonLink = ({ href, text, className }) => (
       }
 
       .primary {
-        background-color: Colors.primary;
+        background-color: ${Colors.primary};
       }
 
       .muted {
