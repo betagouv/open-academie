@@ -28,7 +28,7 @@ const Corporate = ({ simple, gratuit, collaboratif }) => (
       }
 
       h2 {
-        font-weight: 200;
+        font-weight: 500;
         font-size: 1.5em;
         font-family: 'Quicksand', sans-serif;
       }
