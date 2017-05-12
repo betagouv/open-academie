@@ -27,7 +27,7 @@ export const Products = [
     id: 'cogefi',
     page: '',
     title: 'Cogefi',
-    tagline: 'Le logiciel d’analyse financière des EPLE',
+    tagline: 'Le logiciel d’analyse financière',
     description: 'Cogefi permet la production rapide et automatique de rapports financiers pour les collèges et lycées',
     imageSource: 'static/graph.png',
     color: '#fb2058',

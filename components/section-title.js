@@ -9,10 +9,11 @@ const SectionTitle = ({ title, subtitle }) => (
     }
 
     <style jsx>{`
-      h2 {
-        font-size: 4em;
-        font-weight: 400;
+      h1 {
+        font-size: 8em;
+        font-weight: 600;
         text-align: center;
+        font-family: 'Open Sans', sans-serif;
       }
 
       p {

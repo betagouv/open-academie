@@ -53,11 +53,10 @@ const VotreProjet = () => (
           background-position: top center;
           background-size: cover;
           background-repeat: no-repeat;
-          padding: 4em 0;
           display: flex;
           align-items: center;
           flex-direction: column;
-          padding: 4em 20px 2em;
+          padding: 4em 0 2em;
           height: 25em;
         }
 
