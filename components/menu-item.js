@@ -18,8 +18,13 @@ const MenuItem = ({ product }) => {
 
       <style jsx>{`
         .list-item {
+          text-align: left;
           display: flex;
           flex: 1 0 50%;
+        }
+
+        h3 {
+          color: #222;
         }
 
         .link-container {
