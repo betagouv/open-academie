@@ -75,6 +75,7 @@ export default () => (
             max-width: 900px;
             text-align: center;
             color: white;
+            font-family: 'Open Sans', sans-serif;
           }
 
           ul {
