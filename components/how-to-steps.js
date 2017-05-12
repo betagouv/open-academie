@@ -1,14 +1,13 @@
 import { Colors } from '../components/constants'
 
-const HowToSteps = () => (
+const HowToSteps = ({ steps }) => (
   <div>
     <h2>Comment ça marche ?</h2>
 
     <ul>
-      <li className="inverted">Télécharger</li>
-      <li>Importer la base</li>
-      <li>Saisir les constantes de l'établissement</li>
-      <li>Saisir les données du voyage</li>
+      {
+        steps ? steps.map(step => <li>{ step }</li>) : null
+      }
     </ul>
 
     <style jsx>{`
@@ -44,10 +43,11 @@ const HowToSteps = () => (
         font-family: 'Open Sans', sans-serif;
       }
 
-      li.inverted {
+      li:first-child {
         background-color: #fff;
         color: ${Colors.primary};
       }
+
     `}</style>
   </div>
 )

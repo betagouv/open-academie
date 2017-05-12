@@ -39,7 +39,7 @@ export const Products = [
   },
   {
     id: 'gemasco',
-    page: '',
+    page: 'gemasco',
     title: 'Gemasco',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     downloadUrl: 'GEMASCO V1.6.rar',

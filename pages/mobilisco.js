@@ -31,7 +31,14 @@ const Mobilisco = () => (
         `}</style>
       </div>
 
-      <HowToSteps />
+      <HowToSteps
+        steps={[
+          'Télécharger',
+          'Importer la base',
+          'Saisir les constantes de l\'établissement',
+          'Saisir les données du voyage'
+        ]}
+      />
 
       <Corporate
         simple="Comme tous les outils Open Académie, Mobilisco vise à simplifier concrètement vos opérations de gestion des établissements scolaires. Tout en gardant les outils que vous connaissez, c’est la fonctionnalité (plutôt que l’apparence) qui est repensée."
