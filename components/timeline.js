@@ -27,15 +27,20 @@ const Timeline = ({ title, items }) => (
         color: #29adad;
         margin: 0;
         font-size: 1.2em;
+        font-family: 'Quicksand', sans-serif;
       }
 
       ul {
         padding-left: 15px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: ?px
       }
 
       li {
         margin: 15px 0;
         margin-left: 25px;
+        font-family: 'Open Sans', sans-serif;
+
       }
 
       @media (min-width: 768px) {
