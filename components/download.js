@@ -57,6 +57,7 @@ class Download extends React.Component {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
           }
 
           label {
@@ -64,6 +65,7 @@ class Download extends React.Component {
             flex-direction: column;
             padding: 10px 0;
             font-size: 0.9em;
+            width: 100%;
           }
 
           input {
@@ -80,15 +82,17 @@ class Download extends React.Component {
             text-align: center;
             outline: 0;
             cursor: pointer;
+            width: 180px;
             border: none;
             border-radius: 2px;
-            display: inline-block;
             min-height: 45px;
             line-height: 45px;
             padding: 0 2rem;
             -webkit-tap-highlight-color: transparent;
             box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
             background-color: #26a69a;
+            font-family: 'Marvel', sans-serif;
+            text-transform: uppercase;
           }
 
           .small {

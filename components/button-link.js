@@ -8,6 +8,7 @@ const ButtonLink = ({ href, text, className }) => (
     <style jsx>{`
       a {
         font-family: 'Marvel', sans-serif;
+        text-transform: uppercase;
         margin: 10px 20px;
         color: #fff;
         font-size: 1.4em;
@@ -24,7 +25,6 @@ const ButtonLink = ({ href, text, className }) => (
         min-height: 45px;
         line-height: 45px;
         padding: 0 2rem;
-        text-transform: uppercase;
         vertical-align: middle;
         -webkit-tap-highlight-color: transparent;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
