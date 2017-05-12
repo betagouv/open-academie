@@ -24,7 +24,7 @@ export default () => (
 
         <style jsx>{`
           .title {
-            background-image: url('../static/homepage.jpg');
+            background-image: url('../static/home.jpeg');
             background-attachment: fixed;
             background-position: top center;
             background-size: cover;
@@ -57,16 +57,19 @@ export default () => (
           }
 
           h1 {
-            font-size: 4em;
-            color: #26a69a;
-            font-weight: 600;
+            color: white;
+            font-weight: 400;
             text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 0;
           }
 
           @media (min-width: 768px) {
             h1 {
-              font-size: 6em;
-              margin-top: 1.3em;
+              font-size: 7em;
+              margin-top: 2.7em;
             }
           }
 
