@@ -33,7 +33,7 @@ const Timeline = ({ title, items }) => (
       ul {
         padding-left: 15px;
         font-family: 'Open Sans', sans-serif;
-        line-height: ?px
+        line-height: 26px
       }
 
       li {
