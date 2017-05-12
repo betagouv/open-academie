@@ -16,7 +16,7 @@ export default () => (
 
         <div className="description">
           <p>
-            Des <strong>outils numériques d’administration scolaire</strong> créés par des agents, pour des agents
+            Des solutions <strong>numériques pour l’administration scolaire</strong>
           </p>
 
           <ButtonLink href="/#les-outils" text="En savoir plus" className="primary" />
@@ -71,7 +71,7 @@ export default () => (
           }
 
           p {
-            font-size: 1.4em;
+            font-size: 1.8em;
             max-width: 900px;
             text-align: center;
             color: white;
