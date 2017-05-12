@@ -21,6 +21,8 @@ const ProductHead = ({ constant }) => {
 
         h1 {
           font-weight: 400;
+          font-family: 'Quicksand', sans-serif;
+          font-size: 2.8em
         }
 
         p {
