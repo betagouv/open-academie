@@ -36,7 +36,7 @@ const Corporate = ({ simple, gratuit, collaboratif }) => (
       p {
         width: 250px;
         font-weight: 200;
-        line-height: 1.4em;
+        line-height: 26px;
       }
 
       #simple {
