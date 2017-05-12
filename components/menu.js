@@ -40,9 +40,10 @@ class Menu extends Component {
       <header>
         <nav>
           <ul id="menu">
-            <li id="nav-qui-sommes-nous"><Link href="/"><a>Qui sommes-nous ?</a></Link></li>
-            <li id="nav-les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/#les-outils">Les outils</a></li>
-            <li><Link href="/"><a>La communauté Open Académie</a></Link></li>
+            <li><Link href="/"><a>Accueil</a></Link></li>
+            <li id="nav-les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/outils">Les outils</a></li>
+            <li id="nav-je-projet"><Link href="/"><a>Le projet</a></Link></li>
+            <li><Link href="/contact"><a>Contact</a></Link></li>
           </ul>
 
           <div className={dropDownClass}>
@@ -59,14 +60,16 @@ class Menu extends Component {
         </nav>
 
         <style jsx>{`
+          header {
+            text-align: right;
+          }
+
           nav {
             position: fixed;
             display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid gainsboro;
-            align-items: center;
+            justify-content: flex-end;
             width: 100vw;
-            background-color: white;
+            background-color: rgba(19, 0, 0, 0.21);
             height: 50px;
             z-index: 1;
           }
@@ -77,6 +80,8 @@ class Menu extends Component {
             list-style-type: none;
             height: 50px;
             align-items: center;
+            padding: 0;
+            margin-right: 70px;
           }
 
           nav ul#menu li {
@@ -88,16 +93,14 @@ class Menu extends Component {
           nav ul#menu li a {
             text-transform: uppercase;
             text-decoration: none;
-            color: darkslategrey;
+            color: white;
+            font-size: 1.2em;
+            font-family: 'Open Sans', sans-serif;
           }
 
           nav ul#menu li+li {
             margin-left: 15px;
             padding-left: 15px;
-          }
-
-          nav ul#menu li#nav-qui-sommes-nous a {
-            color: orange;
           }
 
           @media (max-width: 768px) {
@@ -114,7 +117,7 @@ class Menu extends Component {
           .dropdown {
             position: absolute;
             z-index: 1000;
-            left: 200px;
+            right: 830px;
             top: 49px;
             pointer-events: none;
             opacity: 0;
@@ -127,7 +130,7 @@ class Menu extends Component {
           .dropdown-arrow {
             position: absolute;
             top: -6px;
-            left: 75px;
+            left: 465px;
             margin: 0 0 0 -6px;
             width: 12px;
             height: 12px;

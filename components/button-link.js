@@ -7,9 +7,12 @@ const ButtonLink = ({ href, text, className }) => (
 
     <style jsx>{`
       a {
+        font-family: 'Marvel', sans-serif;
         margin: 10px 20px;
         color: #fff;
+        font-size: 1.4em;
         text-decoration: none;
+        font-weight: bold;
         text-align: center;
         letter-spacing: .5px;
         transition: .2s ease-out;

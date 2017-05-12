@@ -10,11 +10,12 @@ export default ({ children, title = 'Open Académie' }) => (
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet" />
     </Head>
 
     <Menu />
 
-    <div style={{ paddingTop: '50px' }}>
+    <div>
       { children }
     </div>
   </div>
