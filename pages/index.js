@@ -16,7 +16,7 @@ export default () => (
 
         <div className="description">
           <p>
-            Des solutions <strong>numériques pour l’administration scolaire</strong>
+            Des solutions <strong>numériques</strong> pour l’administration <strong>scolaire</strong>
           </p>
 
           <ButtonLink href="/#les-outils" text="En savoir plus" className="primary" />
