@@ -3,6 +3,7 @@ import Link from 'next/link'
 class Download extends React.Component {
   constructor(props) {
     super(props);
+    this.constant = props.constant;
     this.state = {codeEtablissement: '', email: ''};
 
     this.handleChangeEmail = this.handleChangeEmail.bind(this);
@@ -21,16 +22,15 @@ class Download extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
 
-    var etablissementCode = $('#input-name');
-    var emailCode = $('#input-name-email');
-    var inputName = encodeURIComponent(etablissementCode.val() + ' - ' + emailCode.val() + ' - ' + 'page index');
-    var baseURL = 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=';
-    var submitRef = '&submit=submit';
-    var submitURL = (baseURL + inputName + submitRef);
-    console.log(submitURL);
+    const etablissementCode = $('#input-name');
+    const emailCode = $('#input-name-email');
+    const inputName = encodeURIComponent(etablissementCode.val() + ' - ' + emailCode.val() + ' - ' + 'page index');
+    const baseURL = this.constant.formUrl;
+    const submitRef = '&submit=submit';
+    const submitURL = (baseURL + inputName + submitRef);
+
     $(this)[0].action = submitURL;
-    console.log('done');
-    window.location.assign('MOBILISCO V5.7.1.zip');
+    window.location.assign(constant.downloadUrl);
   }
 
   render() {
@@ -45,7 +45,7 @@ class Download extends React.Component {
           <input type="email" value={this.state.email} onChange={this.handleChangeEmail} required aria-required="true" />
         </label>
 
-        <input type="submit" value="Télécharger MobiliSCO v5.7.1" />
+        <input type="submit" value="Télécharger" />
 
         <div className="small">
           Mobilisco fonctionne sur : Microsoft Access 2013, 2010, 2007, 2002.
@@ -53,6 +53,12 @@ class Download extends React.Component {
         </div>
 
         <style jsx>{`
+          form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+
           label {
             display: flex;
             flex-direction: column;
@@ -69,7 +75,7 @@ class Download extends React.Component {
           }
 
           input[type="submit"] {
-            margin: 10px 20px;
+            margin: 10px 0;
             color: #fff;
             text-align: center;
             outline: 0;
