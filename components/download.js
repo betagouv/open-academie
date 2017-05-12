@@ -90,6 +90,7 @@ class Download extends React.Component {
             background-color: #26a69a;
             font-family: 'Marvel', sans-serif;
             text-transform: uppercase;
+            letter-spacing: 0.6px
           }
 
           .small {
