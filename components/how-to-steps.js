@@ -16,7 +16,8 @@ const HowToSteps = () => (
         text-align: center;
         margin: 3em 0;
         font-size: 2em;
-        font-weight: normal;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
       }
 
       ul {
@@ -40,6 +41,7 @@ const HowToSteps = () => (
         color: white;
         line-height: 1.4em;
         font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
       }
 
       li.inverted {
