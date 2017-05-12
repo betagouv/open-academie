@@ -62,6 +62,7 @@ const SalesPoints = () => (
         min-height: 50px;
         display: flex;
         align-items: center;
+        font-family: 'Open Sans', sans-serif;
       }
     `}</style>
   </div>
