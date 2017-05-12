@@ -14,7 +14,7 @@ const HowToSteps = () => (
     <style jsx>{`
       h2 {
         text-align: center;
-        margin: 3em 0;
+        margin: 5em 0 2em;
         font-size: 2em;
         font-weight: 500;
         font-family: 'Quicksand', sans-serif;
