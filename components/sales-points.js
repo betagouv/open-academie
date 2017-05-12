@@ -63,6 +63,7 @@ const SalesPoints = () => (
         display: flex;
         align-items: center;
         font-family: 'Open Sans', sans-serif;
+        line-height: 26px
       }
     `}</style>
   </div>
