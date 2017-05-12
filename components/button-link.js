@@ -1,12 +1,9 @@
 import React from 'react'
-import Link from 'next/link'
 import { Colors } from '../components/constants'
 
 const ButtonLink = ({ href, text, className }) => (
   <div>
-    <Link href={ href }>
-      <a className={className}>{ text }</a>
-    </Link>
+    <a href={ href } className={className}>{ text }</a>
 
     <style jsx>{`
       a {

@@ -41,7 +41,7 @@ class Menu extends Component {
         <nav>
           <ul id="menu">
             <li id="nav-qui-sommes-nous"><Link href="/"><a>Qui sommes-nous ?</a></Link></li>
-            <li id="nav-les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><Link href="/#les-outils"><a>Les outils</a></Link></li>
+            <li id="nav-les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/#les-outils">Les outils</a></li>
             <li><Link href="/"><a>La communauté Open Académie</a></Link></li>
           </ul>
 
