@@ -64,6 +64,7 @@ const VotreProjet = () => (
           text-align: center;
           font-weight: 400;
           font-family: 'Quicksand', sans-serif;
+          font-weight: 600;
         }
 
         .description {
