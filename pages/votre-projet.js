@@ -69,7 +69,7 @@ const VotreProjet = () => (
 
         .description {
           margin: 3em 0;
-          padding: 2em 0;
+          padding: 0em 0;
         }
 
         p {
