@@ -46,7 +46,6 @@ const VotreProjet = () => (
           text-align: center;
           color: #03a492;
           margin: 0;
-          font-family: 'Quicksand', sans-serif;
         }
 
         .title {
@@ -64,6 +63,7 @@ const VotreProjet = () => (
         h2 {
           text-align: center;
           font-weight: 400;
+          font-family: 'Quicksand', sans-serif;
         }
 
         .description {
@@ -77,13 +77,14 @@ const VotreProjet = () => (
           max-width: 620px;
           margin: 1em auto;
           font-family: 'Open Sans', sans-serif;
+          line-height: 26px;
         }
 
         .call-to-action {
           padding: 2em 0;
           background-color: #f5f5f9;
           font-weight: 600;
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'Quicksand', sans-serif;
         }
 
         .call-to-action-button {
