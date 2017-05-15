@@ -77,7 +77,7 @@ const VotreProjet = () => (
           line-height: 1.3em;
           max-width: 620px;
           margin: 1em auto;
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'Quicksand', sans-serif;
           line-height: 26px;
         }
 
