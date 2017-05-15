@@ -40,6 +40,7 @@ const Cogefi = () => (
             flex-direction: column;
             justify-content: center;
             font-family: 'Open Sans', sans-serif;
+            line-height: 26px;
           }
 
           p {
