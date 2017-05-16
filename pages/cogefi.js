@@ -44,8 +44,9 @@ const Cogefi = () => (
           }
 
           p {
-            margin-left: 50px;
-            max-width: 230px;
+            margin-left: 100px;
+            max-width: 500px;
+            font-size: large;
           }
         `}</style>
       </div>
