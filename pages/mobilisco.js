@@ -21,7 +21,7 @@ const Mobilisco = () => (
           description={constant.description}
           downloadComponent={<Download />} />
 
-        <SalesPoints />
+        <SalesPoints points={constant.salesPoints} />
 
         <style jsx>{`
           .wrapper {

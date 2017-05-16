@@ -9,7 +9,7 @@ import HowToSteps from '../components/how-to-steps'
 import { Products } from '../components/constants'
 import { Colors } from '../components/constants'
 
-const constant = Products.find(product => product.id === 'cogefi')
+const constant = Products.find(product => product.id === 'gemasco')
 
 const Gemasco = () => (
   <Layout>
@@ -17,43 +17,88 @@ const Gemasco = () => (
       <ProductHead constant={constant} />
 
       <div className="wrapper">
+
         <Brief
-          description=""
+          description={constant.description}
           downloadComponent={<Download />} />
 
-        <div className="description">
-          <p>Développé par un collectif d’agents comptables, Cogefi est une solution au format excel qui automatise la production de rapports financiers pour les collèges et lycées, pour un gain de temps phénoménal.</p>
-          <p>Cogefi ne cesse d’évoluer, et  la  version 17.07 est disponible depuis le 26.03.2017</p>
-        </div>
+        <SalesPoints points={constant.salesPoints} />
 
         <style jsx>{`
           .wrapper {
             display: flex;
             flex-wrap: wrap;
           }
+        `}</style>
+      </div>
 
-          .description {
-            background-color: #eee;
-            width: 50%;
-            min-width: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-          }
+      <HowToSteps
+        steps={[
+          'Installez la police code barre *',
+          'Importer la base élève',
+          'Saisir les constantes de l\'établissement',
+          'Saisir la liste des manuels prêtés dans votre établissement',
+          'Création des étiquettes code barre'
+        ]}
+      />
 
+      <div>
+        <p>* (Placer le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts")</p>
+
+        <style jsx>{`
           p {
-            margin-left: 50px;
-            max-width: 230px;
+            margin-left: 10vw;
+            margin-top: 2em;
+            color: #555;
           }
         `}</style>
       </div>
 
-      <HowToSteps />
+      <div>
+        <h2>Avec quel matériel utiliser Gemasco ?</h2>
+        <ul>
+          <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 60 €</span></li>
+          <li>Etiquettes autocollantes 63.5 x 33.9 mm, coins arrondis <span className="muted">6 €HT le paquet de 2400 étiquettes</span></li>
+          <li>Etiquettes plastiques pour protéger les codes-barre 50 x 100 mm <span className="muted">26 €HT les 500</span></li>
+        </ul>
 
-      <Corporate
-        simple="Comme tous les outils Open Académie, Cogefi vise à simplifier concrètement vos opérations de gestion des établissements scolaires. Tout en gardant les outils que vous connaissez, c’est la fonctionnalité (plutôt que l’apparence) qui est repensée."
-        gratuit="Elaboré par des agents, pour des agents, Cogefi est libre et gratuit. Cette liberté est matérialisée par la licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)"
-      />
+        <h2>Puis-je utiliser Gemasco en réseau ?</h2>
+        <p>Nous recommandons même que le fichier soit placé sur un lecteur réseau accessible par plusieurs utilisateurs. En revanche, Mobilisco reste un outil mono-utilisateur : plusieurs personnes ne peuvent pas saisir ou modifier les informations en même temps.</p>
+
+        <h2>Je n'ai pas les droits pour extraire la base élèves dans SIECLE</h2>
+        <p>Demandez-le à votre chef d'établissement, ce qu'il fera à l'aide de l'application DELEG-CE (dans Sconet-Arena).</p>
+
+        <style jsx>{`
+          div {
+            margin: 4em 0;
+          }
+
+          ul {
+            margin: auto;
+            max-width: 460px;
+          }
+
+          h2 {
+            max-width: 500px;
+            margin: 2em auto;
+          }
+
+          li {
+            margin-bottom: 20px;
+          }
+
+          p {
+            margin: auto;
+            max-width: 460px;
+            color: #555;
+            line-height: 1.6em;
+          }
+
+          .muted {
+            color: #888;
+          }
+        `}</style>
+      </div>
     </main>
   </Layout>
 )

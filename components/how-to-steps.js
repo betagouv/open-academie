@@ -6,7 +6,7 @@ const HowToSteps = ({ steps }) => (
 
     <ul>
       {
-        steps ? steps.map(step => <li>{ step }</li>) : null
+        steps.map(step => <li>{ step }</li>)
       }
     </ul>
 
@@ -32,6 +32,7 @@ const HowToSteps = ({ steps }) => (
         border-radius: 50%;
         width: 200px;
         height: 200px;
+        padding: 6px;
         display: flex;
         justify-content: center;
         text-align: center;

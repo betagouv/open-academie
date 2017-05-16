@@ -10,6 +10,11 @@ export const Products = [
     imageSource: 'static/arrow.png',
     color: '#24b47e',
     background: '',
+    salesPoints: [
+      'Inscription des élèves aux voyages et édition des lettres d\'engagement des familles',
+      'Edition des budgets, bilan financier, justificatif des ordres de recettes et documents en tout genre',
+      'Suivi des encaissements sur un document unique',
+    ]
   },
   {
     id: 'bourse',
@@ -48,6 +53,13 @@ export const Products = [
     imageSource: 'static/book.png',
     color: '#ff7b19',
     background: '',
+    salesPoints: [
+      'Création d\'étiquettes code-barre à coller sur les manuels scolaires',
+      'Prêt et retour automatisé',
+      'Suivi du stock en temps réel',
+      'Edition d\'avis aux familles des livres non-rendus ou dégradés',
+      'Déterminer à tout moment à qui appartient n\'importe quel livre',
+    ],
   },
   {
     id: 'emaintenance',

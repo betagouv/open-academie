@@ -1,20 +1,16 @@
 import { Colors } from '../components/constants'
 
-const SalesPoints = () => (
+const SalesPoints = ({ points }) => (
   <div>
     <ul>
-      <li>
-        <img src="static/check.png" />
-        <p>Inscription des élèves aux voyages et édition des lettres d'engagement des familles</p>
-      </li>
-      <li>
-        <img src="static/check.png" />
-        <p>Edition des budgets, bilan financier, justificatif des ordres de recettes et documents en tout genre</p>
-      </li>
-      <li>
-        <img src="static/check.png" />
-        <p>Suivi des encaissements sur un document unique</p>
-      </li>
+      {
+        points.map(point => (
+          <li>
+            <img src="static/check.png" />
+            <p>{ point }</p>
+          </li>
+        ))
+      }
       <li>
         <img src="static/check.png" />
         <p className="free">Libre et gratuit</p>
