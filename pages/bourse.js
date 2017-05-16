@@ -17,7 +17,7 @@ const timelineItems = [
   },
   {
     date: 'Automne 2016',
-    description: 'Bourse est ouvert dans 100 collèges',
+    description: 'Bourse est ouvert dans 100 établissements en France',
   },
 ]
 
