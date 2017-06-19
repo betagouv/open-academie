@@ -35,16 +35,13 @@ const Gemasco = () => (
 
       <HowToSteps
         steps={[
-          'Installez la police code barre *',
+          'Installer la police code barre *',
           'Importer la base élève',
           'Saisir les constantes de l\'établissement',
           'Saisir la liste des manuels prêtés dans votre établissement',
           'Création des étiquettes code barre'
         ]}
       />
-
-      <div>
-        <p>* (Placer le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts")</p>
 
         <style jsx>{`
           p {
@@ -56,7 +53,11 @@ const Gemasco = () => (
       </div>
 
       <div>
-        <h2>Avec quel matériel utiliser Gemasco ?</h2>
+        <h2>Comment importer la police code barre ?</h2>
+        <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts.</p>
+
+          
+          <h2>Avec quel matériel utiliser Gemasco ?</h2>
         <ul>
           <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 60 €</span></li>
           <li>Etiquettes autocollantes 63.5 x 33.9 mm, coins arrondis <span className="muted">6 €HT le paquet de 2400 étiquettes</span></li>
