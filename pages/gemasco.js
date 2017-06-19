@@ -20,7 +20,7 @@ const Gemasco = () => (
 
         <Brief
           description={constant.description}
-          downloadComponent={<Download />} />
+          downloadComponent={<Download constant={constant} />} />
 
         <SalesPoints points={constant.salesPoints} />
 

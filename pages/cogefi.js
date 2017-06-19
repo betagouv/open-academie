@@ -19,11 +19,11 @@ const Cogefi = () => (
       <div className="wrapper">
         <Brief
           description=""
-          downloadComponent={<Download />} />
+          downloadComponent={<Download constant={constant} />} />
 
         <div className="description">
           <p>Développé par un collectif d’agents comptables, Cogefi est une solution au format excel qui automatise la production de rapports financiers pour les collèges et lycées, pour un gain de temps phénoménal.</p>
-          <p>Cogefi ne cesse d’évoluer, et  la  version 17.07 est disponible depuis le 26.03.2017</p>
+          <p>Cogefi ne cesse d’évoluer, et la version 17.07 est disponible depuis le 26.03.2017</p>
         </div>
 
         <style jsx>{`
@@ -51,9 +51,66 @@ const Cogefi = () => (
         `}</style>
       </div>
 
+      <div className="links">
+        <h2>Comment ça marche ?</h2>
+
+        <div className="wrapper">
+          <a id="forum" href="http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils" target="_blank">
+            <img src="static/icon-forum.png" alt="" />
+            Forum
+          </a>
+          <a id="tutoriel" href="http://www.dailymotion.com/espaceple" target="_blank">
+            <img src="static/icon-video.png" alt="" />
+            Tutoriels
+          </a>
+        </div>
+
+        <style jsx>{`
+          .links {
+            padding: 4em 0;
+          }
+
+          h2 {
+            text-align: center;
+            margin: 2em;
+            font-size: 2em;
+            font-weight: 500;
+            font-family: 'Quicksand', sans-serif;
+          }
+
+          .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 600px;
+            margin: auto;
+          }
+
+          img {
+            max-height: 20px;
+            margin-right: 20px;
+          }
+
+          a {
+            width: calc(49% - 3px);
+            border: 1px solid ${constant.color};
+            text-align: center;
+            padding: 1em 0;
+            text-decoration: none;
+            font-family: 'Marvel', sans-serif;
+            text-transform: uppercase;
+            color: #333;
+            font-size: 1.4em;
+          }
+
+          a+a {
+            border-left: none;
+          }
+        `}</style>
+      </div>
+
       <Corporate
         simple="Comme tous les outils Open Académie, Cogefi vise à simplifier concrètement vos opérations de gestion des établissements scolaires. Tout en gardant les outils que vous connaissez, c’est la fonctionnalité (plutôt que l’apparence) qui est repensée."
-        gratuit="Elaboré par des agents, pour des agents, Cogefi est libre et gratuit. Cette liberté est matérialisée par la licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)"
+        gratuit="Elaboré par des agents, pour des agents, Cogefi est libre et gratuit. Cette liberté est matérialisée par la licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)."
       />
     </main>
   </Layout>

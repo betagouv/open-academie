@@ -16,7 +16,7 @@ const VotreProjet = () => (
         <h2>{ constant.tagline }</h2>
 
         <p>
-          La collaboration est un des valeurs clés d'Open Académie.
+          La collaboration est une des valeurs clés d'Open Académie.
           Nous partons de l'expérience concrète du personnel des
           établissements scolaires et de leurs idées pour développer
           nos outils.
