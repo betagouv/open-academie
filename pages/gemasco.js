@@ -43,21 +43,11 @@ const Gemasco = () => (
         ]}
       />
 
-        <style jsx>{`
-          p {
-            margin-left: 10vw;
-            margin-top: 2em;
-            color: #555;
-          }
-        `}</style>
-      </div>
-
       <div>
         <h2>Comment importer la police code barre ?</h2>
         <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts.</p>
 
-          
-          <h2>Avec quel matériel utiliser Gemasco ?</h2>
+        <h2>Avec quel matériel utiliser Gemasco ?</h2>
         <ul>
           <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 60 €</span></li>
           <li>Etiquettes autocollantes 63.5 x 33.9 mm, coins arrondis <span className="muted">6 €HT le paquet de 2400 étiquettes</span></li>
@@ -88,7 +78,7 @@ const Gemasco = () => (
 
           li {
             margin-bottom: 20px;
-            font-family: 'Open Sans', sans-serif; 
+            font-family: 'Open Sans', sans-serif;
           }
 
           p {
