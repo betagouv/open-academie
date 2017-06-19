@@ -14,7 +14,19 @@ export const Products = [
       'Inscription des élèves aux voyages et édition des lettres d\'engagement des familles',
       'Edition des budgets, bilan financier, justificatif des ordres de recettes et documents en tout genre',
       'Suivi des encaissements sur un document unique',
-    ]
+    ],
+    externalLinks: [
+      {
+        icon: 'static/icon-forum.png',
+        label: 'Forum',
+        href: 'http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils',
+      },
+      {
+        icon: 'static/icon-video.png',
+        label: 'Tutoriels',
+        href: 'http://www.dailymotion.com/espaceple',
+      },
+    ],
   },
   {
     id: 'bourse',
@@ -29,6 +41,13 @@ export const Products = [
       label: 'bourse.beta.gouv.fr',
       href: 'https://bourse.beta.gouv.fr',
     },
+    externalLinks: [
+      {
+        icon: 'static/icon-video.png',
+        label: 'Tutoriel',
+        href: 'https://www.youtube.com/watch?v=6FOz4E_W6I4',
+      },
+    ],
   },
   {
     id: 'cogefi',
@@ -41,6 +60,18 @@ export const Products = [
     imageSource: 'static/graph.png',
     color: '#fb2058',
     background: '',
+    externalLinks: [
+      {
+        icon: 'static/icon-forum.png',
+        label: 'Forum',
+        href: 'http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils',
+      },
+      {
+        icon: 'static/icon-video.png',
+        label: 'Tutoriels',
+        href: 'http://www.dailymotion.com/espaceple',
+      },
+    ],
   },
   {
     id: 'gemasco',
@@ -59,6 +90,13 @@ export const Products = [
       'Suivi du stock en temps réel',
       'Edition d\'avis aux familles des livres non-rendus ou dégradés',
       'Déterminer à tout moment à qui appartient n\'importe quel livre',
+    ],
+    externalLinks: [
+      {
+        icon: 'static/icon-video.png',
+        label: 'Videos',
+        href: 'https://www.youtube.com/watch?v=PnIVIGS52fU',
+      },
     ],
   },
   {

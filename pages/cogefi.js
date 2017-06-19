@@ -6,6 +6,7 @@ import Download from '../components/download'
 import SalesPoints from '../components/sales-points'
 import Corporate from '../components/corporate'
 import HowToSteps from '../components/how-to-steps'
+import ExternalLinks from '../components/external-links'
 import { Products } from '../components/constants'
 import { Colors } from '../components/constants'
 
@@ -51,76 +52,30 @@ const Cogefi = () => (
         `}</style>
       </div>
 
-      <div className="links">
-        <h2>Comment ça marche ?</h2>
+      <ExternalLinks constant={constant} title="Comment ça marche ?" />
 
-        <div className="wrapper">
-          <a id="forum" href="http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils" target="_blank">
-            <img src="static/icon-forum.png" alt="" />
-            Forum
-          </a>
-          <a className="right" id="tutoriel" href="http://www.dailymotion.com/espaceple" target="_blank">
-            <img src="static/icon-video.png" alt="" />
-            Tutoriels
-          </a>
-        </div>
-
-        <p>Pour plus d’informations, vous pouvez également vous rendre sur <a href="http://www.espaceple.org/spip.php?article272&artsuite=#paragraphe_article_2">le site</a> de l’association des agents comptables d’EPLE. Ils y partagent conseils d’utilisations, vidéos et tutoriels d’utilisation de Cogefi.</p>
+      <p>
+        Pour plus d’informations, vous pouvez également vous rendre sur
+        <a href="http://www.espaceple.org/spip.php?article272&artsuite=#paragraphe_article_2">le site</a>
+        de l’association des agents comptables d’EPLE. Ils y partagent conseils d’utilisations, vidéos et
+        tutoriels d’utilisation de Cogefi.
 
         <style jsx>{`
-          .links {
-            padding: 4em 0;
-          }
-
-          h2 {
-            text-align: center;
-            margin: 2em;
-            font-size: 2em;
-            font-weight: 500;
-            font-family: 'Quicksand', sans-serif;
-          }
-
-          .wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 600px;
-            margin: auto;
-          }
-
-          img {
-            max-height: 20px;
-            margin-right: 20px;
-          }
-
-          .wrapper a {
-            width: calc(49% - 3px);
-            border: 1px solid ${constant.color};
-            text-align: center;
-            padding: 1em 0;
-            text-decoration: none;
-            font-family: 'Marvel', sans-serif;
-            text-transform: uppercase;
-            color: #333;
-            font-size: 1.4em;
-          }
-
-          .wrapper a.right {
-            border-left: none;
-          }
-
           p {
             max-width: 65%;
-            margin: 2em auto;
+            margin: 0 auto 2em;
             font-size: 1.4em;
             line-height: 1.5em;
           }
         `}</style>
-      </div>
+      </p>
 
       <Corporate
         simple="Comme tous les outils Open Académie, Cogefi vise à simplifier concrètement vos opérations de gestion des établissements scolaires. Tout en gardant les outils que vous connaissez, c’est la fonctionnalité (plutôt que l’apparence) qui est repensée."
         gratuit="Elaboré par des agents, pour des agents, Cogefi est libre et gratuit. Cette liberté est matérialisée par la licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)."
       />
+
+
     </main>
   </Layout>
 )

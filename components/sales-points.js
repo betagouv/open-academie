@@ -4,8 +4,8 @@ const SalesPoints = ({ points }) => (
   <div>
     <ul>
       {
-        points.map(point => (
-          <li>
+        points.map((point, idx) => (
+          <li key={idx}>
             <img src="static/check.png" />
             <p>{ point }</p>
           </li>

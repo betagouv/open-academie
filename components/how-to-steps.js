@@ -6,7 +6,7 @@ const HowToSteps = ({ steps }) => (
 
     <ul>
       {
-        steps.map(step => <li>{ step }</li>)
+        steps.map((step, idx) => <li key={idx}>{ step }</li>)
       }
     </ul>
 

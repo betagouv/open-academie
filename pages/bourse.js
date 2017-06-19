@@ -4,6 +4,7 @@ import Timeline from '../components/timeline'
 import Brief from '../components/brief'
 import Corporate from '../components/corporate'
 import ProductHead from '../components/product-head'
+import ExternalLinks from '../components/external-links'
 import { Products } from '../components/constants'
 
 const constant = Products.find(product => product.id === 'bourse')
@@ -41,6 +42,8 @@ const Bourse = () => (
           }
         `}</style>
       </div>
+
+      <ExternalLinks constant={constant} />
 
       <Corporate
         simple="Comme tous les outils Open Académie, Bourse vise à simplifier concrètement vos opérations d’intendance dans les établissements scolaires. L’intégralité de l’outil est pensée pour procurer à l’utilisateur la meilleure expérience possible."

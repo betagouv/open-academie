@@ -6,6 +6,7 @@ import Download from '../components/download'
 import SalesPoints from '../components/sales-points'
 import Corporate from '../components/corporate'
 import HowToSteps from '../components/how-to-steps'
+import ExternalLinks from '../components/external-links'
 import { Products } from '../components/constants'
 import { Colors } from '../components/constants'
 
@@ -99,6 +100,9 @@ const Gemasco = () => (
           }
         `}</style>
       </div>
+
+      <ExternalLinks constant={constant} customStyle={{backgroundColor: 'whitesmoke'}} />
+
     </main>
   </Layout>
 )
