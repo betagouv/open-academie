@@ -19,5 +19,30 @@ export default ({ children, title = 'Open Académie' }) => (
     <div>
       { children }
     </div>
+
+    <footer>
+      <p>Open Académie</p>
+      <a href="mailto:openacademie@beta.gouv.fr">openacademie@beta.gouv.fr</a>
+
+      <style jsx>{`
+        footer {
+          text-align: center;
+          padding: 2em 0 4em;
+          font-family: 'Quicksand', sans-serif;
+          background-color: #152b29;
+          color: white;
+        }
+
+        p {
+          font-weight: normal;
+          font-size: 2em;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      `}</style>
+    </footer>
   </div>
 )
