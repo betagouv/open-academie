@@ -80,7 +80,7 @@ const Projet = () => (
         </p>
         <style jsx>{`
           p {
-            max-width: 45%;
+            max-width: 565px;
             line-height: 1.6em;
             font-size: 1.5em;
             margin: 3em auto;
@@ -145,7 +145,7 @@ const Projet = () => (
           }
 
           li {
-            width: 30%;
+            width: 20%;
             list-style: none;
           }
 
