@@ -59,11 +59,13 @@ const Cogefi = () => (
             <img src="static/icon-forum.png" alt="" />
             Forum
           </a>
-          <a id="tutoriel" href="http://www.dailymotion.com/espaceple" target="_blank">
+          <a className="right" id="tutoriel" href="http://www.dailymotion.com/espaceple" target="_blank">
             <img src="static/icon-video.png" alt="" />
             Tutoriels
           </a>
         </div>
+
+        <p>Pour plus d’informations, vous pouvez également vous rendre sur <a href="http://www.espaceple.org/spip.php?article272&artsuite=#paragraphe_article_2">le site</a> de l’association des agents comptables d’EPLE. Ils y partagent conseils d’utilisations, vidéos et tutoriels d’utilisation de Cogefi.</p>
 
         <style jsx>{`
           .links {
@@ -90,7 +92,7 @@ const Cogefi = () => (
             margin-right: 20px;
           }
 
-          a {
+          .wrapper a {
             width: calc(49% - 3px);
             border: 1px solid ${constant.color};
             text-align: center;
@@ -102,8 +104,15 @@ const Cogefi = () => (
             font-size: 1.4em;
           }
 
-          a+a {
+          .wrapper a.right {
             border-left: none;
+          }
+
+          p {
+            max-width: 65%;
+            margin: 2em auto;
+            font-size: 1.4em;
+            line-height: 1.5em;
           }
         `}</style>
       </div>
