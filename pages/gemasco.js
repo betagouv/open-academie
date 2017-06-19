@@ -82,10 +82,12 @@ const Gemasco = () => (
           h2 {
             max-width: 500px;
             margin: 2em auto;
+            font-family: 'Quicksand', sans-serif;
           }
 
           li {
             margin-bottom: 20px;
+            font-family: 'Open Sans', sans-serif; 
           }
 
           p {
