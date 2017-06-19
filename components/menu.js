@@ -43,7 +43,7 @@ class Menu extends Component {
             <li><Link href="/"><a>Accueil</a></Link></li>
             <li id="nav-les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/outils">Les outils</a></li>
             <li id="nav-je-projet"><Link href="/projet"><a>Le projet</a></Link></li>
-            <li><Link href="/contact"><a>Contact</a></Link></li>
+            <li><Link href="mailto:openacademie@beta.gouv.fr"><a>Contact</a></Link></li>
           </ul>
 
           <div className={dropDownClass}>
