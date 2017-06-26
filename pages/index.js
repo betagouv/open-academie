@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Layout from '../components/layout'
 import HomeItem from '../components/home-item'
-import SectionTitle from '../components/section-title'
 import ButtonLink from '../components/button-link'
 import { Products } from '../components/constants'
 
@@ -19,27 +18,31 @@ export default () => (
             Des solutions <strong>numériques</strong> pour l’administration <strong>scolaire</strong>
           </p>
 
-          <ButtonLink href="/#les-outils" text="En savoir plus" className="primary" />
+          <div className="buttons">
+            <ButtonLink href="/outils" text="Les outils" className="primary" />
+            <ButtonLink href="/projet" text="Le projet" className="primary" />
+          </div>
         </div>
 
         <style jsx>{`
           .title {
-            background-image: url('../static/homepage.jpg');
+            background-image: url('../static/home.jpeg');
             background-attachment: fixed;
-            background-position: top center;
+            background-position: center -125px;
             background-size: cover;
             background-repeat: no-repeat;
-            min-height: 25em;
-            height: 75vh;
-            padding: 4em 0;
+            min-height: 35em;
+            height: 100vh;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             flex-direction: column;
+            position: relative;
           }
 
           img {
             position: absolute;
+            top: 70px;
             right: 20px;
             height: 110px;
           }
@@ -56,22 +59,29 @@ export default () => (
             align-items: center;
           }
 
+          .buttons {
+            display: flex;
+          }
+
           h1 {
-            font-size: 4em;
-            color: #26a69a;
-            font-weight: 600;
+            color: white;
+            font-weight: 400;
             text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 30px;
           }
 
           @media (min-width: 768px) {
             h1 {
-              font-size: 6em;
-              margin-top: 1.3em;
+              font-size: 7em;
+              margin-top: 2em;
             }
           }
 
           p {
-            font-size: 1.8em;
+            font-size: 2em;
             max-width: 900px;
             text-align: center;
             color: white;
@@ -88,63 +98,6 @@ export default () => (
           }
         `}</style>
       </div>
-
-      <section id="qui-sommes-nous">
-        <p><strong>Open Académie</strong> est un collectif d'agents publics qui produit des services numériques gratuits pour simplifier l'administration des établissements scolaires.</p>
-
-        <p>Envie de vous simplifier la vie ?</p>
-
-        <ButtonLink href="/#les-outils" text="Testez nos outils" className="muted" />
-
-        <style jsx>{`
-          section {
-            padding: 3em 0;
-            background-color: #eeeef0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          }
-
-          p {
-            font-size: 1.2em;
-            text-align: center;
-            max-width: 620px;
-          }
-        `}</style>
-      </section>
-
-      <section id="les-outils">
-        <SectionTitle
-          title="Les outils"
-          subtitle="Les outils informatiques d’Open Académie pour simplifier la vie administrative des établissements scolaires" />
-
-        <ul>
-          {
-            Products.map(product => <HomeItem key={ product.id } product={ product } />)
-          }
-        </ul>
-
-        <style jsx>{`
-          section {
-            padding: 3em 0;
-          }
-
-          ul {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 0;
-            width: 60vw;
-            margin: auto;
-          }
-
-          @media (max-width: 768px) {
-            ul {
-              width: 90vw;
-            }
-          }
-        `}</style>
-      </section>
     </main>
   </Layout>
 )

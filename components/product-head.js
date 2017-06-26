@@ -11,7 +11,8 @@ const ProductHead = ({ constant }) => {
       <style jsx>{`
         div {
           text-align: center;
-          padding: 3em 0;
+          padding-top: 100px;
+          padding-bottom: 3em;
         }
 
         img {
@@ -20,6 +21,8 @@ const ProductHead = ({ constant }) => {
 
         h1 {
           font-weight: 400;
+          font-family: 'Quicksand', sans-serif;
+          font-size: 2.8em
         }
 
         p {

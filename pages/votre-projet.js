@@ -16,7 +16,7 @@ const VotreProjet = () => (
         <h2>{ constant.tagline }</h2>
 
         <p>
-          La collaboration est un des valeurs clés d'Open Académie.
+          La collaboration est une des valeurs clés d'Open Académie.
           Nous partons de l'expérience concrète du personnel des
           établissements scolaires et de leurs idées pour développer
           nos outils.
@@ -53,22 +53,23 @@ const VotreProjet = () => (
           background-position: top center;
           background-size: cover;
           background-repeat: no-repeat;
-          padding: 4em 0;
           display: flex;
           align-items: center;
           flex-direction: column;
-          padding: 4em 20px 2em;
+          padding: 4em 0 2em;
           height: 25em;
         }
 
         h2 {
           text-align: center;
           font-weight: 400;
+          font-family: 'Quicksand', sans-serif;
+          font-weight: 600;
         }
 
         .description {
           margin: 3em 0;
-          padding: 2em 0;
+          padding: 0em 0;
         }
 
         p {
@@ -76,12 +77,15 @@ const VotreProjet = () => (
           line-height: 1.3em;
           max-width: 620px;
           margin: 1em auto;
+          font-family: 'Quicksand', sans-serif;
+          line-height: 26px;
         }
 
         .call-to-action {
           padding: 2em 0;
           background-color: #f5f5f9;
           font-weight: 600;
+          font-family: 'Quicksand', sans-serif;
         }
 
         .call-to-action-button {

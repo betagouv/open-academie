@@ -23,19 +23,24 @@ const Timeline = ({ title, items }) => (
       }
 
       h2 {
-        padding-left: 40px;
+        padding-left: 105px;
         color: #29adad;
         margin: 0;
         font-size: 1.2em;
+        font-family: 'Quicksand', sans-serif;
       }
 
       ul {
         padding-left: 15px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px
       }
 
       li {
-        margin: 15px 0;
-        margin-left: 25px;
+        margin: 30px 0;
+        margin-left: 90px;
+        font-family: 'Open Sans', sans-serif;
+
       }
 
       @media (min-width: 768px) {

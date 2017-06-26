@@ -4,6 +4,7 @@ import Timeline from '../components/timeline'
 import Brief from '../components/brief'
 import Corporate from '../components/corporate'
 import ProductHead from '../components/product-head'
+import ExternalLinks from '../components/external-links'
 import { Products } from '../components/constants'
 
 const constant = Products.find(product => product.id === 'bourse')
@@ -17,7 +18,7 @@ const timelineItems = [
   },
   {
     date: 'Automne 2016',
-    description: 'Bourse est ouvert dans 100 collèges',
+    description: 'Bourse est ouvert dans 100 établissements en France',
   },
 ]
 
@@ -42,9 +43,11 @@ const Bourse = () => (
         `}</style>
       </div>
 
+      <ExternalLinks constant={constant} />
+
       <Corporate
-        simple="Comme tous les outils Open Académie, Bourse vise à simplifier concrètement vos opérations d’intendance dans les établissements scolaires. L’intégralité de l’outil est pensée pour procurer à l’utilisateur la meilleure expérience possible"
-        gratuit="Elaboré par des agents, pour des agents, Bourse est libre et gratuit. Cette liberté est matérialisée par une licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)"
+        simple="Comme tous les outils Open Académie, Bourse vise à simplifier concrètement vos opérations d’intendance dans les établissements scolaires. L’intégralité de l’outil est pensée pour procurer à l’utilisateur la meilleure expérience possible."
+        gratuit="Elaboré par des agents, pour des agents, Bourse est libre et gratuit. Cette liberté est matérialisée par une licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)."
       />
     </main>
   </Layout>

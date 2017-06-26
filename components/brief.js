@@ -20,6 +20,7 @@ const Brief = ({ description, downloadComponent }) => (
         margin-right: 125px;
         font-size: 1.1em;
         font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
       }
 
       @media (min-width: 768px) {
