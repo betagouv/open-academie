@@ -2,7 +2,7 @@ export const Products = [
   {
     id: 'mobilisco',
     page: '/mobilisco',
-    title: 'Mobilisco',
+    title: 'MobiliSCO',
     formUrl: 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=',
     downloadUrl: 'MOBILISCO V5.7.1.zip',
     tagline: 'Les voyages scolaires cessent d’être un enfer',
@@ -76,11 +76,11 @@ export const Products = [
   {
     id: 'gemasco',
     page: 'gemasco',
-    title: 'Gemasco',
+    title: 'GemaSCO',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     downloadUrl: 'GEMASCO V1.6.rar',
     tagline: 'L’appli qui gère les manuels scolaires',
-    description: 'Gemasco commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
+    description: 'GemaSCO commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
     imageSource: 'static/book.png',
     color: '#ff7b19',
     background: '',
