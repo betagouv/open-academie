@@ -96,10 +96,11 @@ const Projet = () => (
             <span className="one">1</span>
             <h3>Vous êtes irrité</h3>
             <p>
-              Nous partons d’une frustration, d’une irritation, d’un <strong>dysfonctionnement</strong>&nbsp;
+              Nous partons d’une irritation, d’un <strong>dysfonctionnement</strong>&nbsp;
               au sein d’un établissement scolaire. L’impulsion est  donnée par un observateur
               de terrain, le plus apte à mesurer le problème : <strong>l’agent public lui-même</strong>,
-              intendant, administratif, professeur ou autre membre du personnel scolaire.
+              intendant, gestionnaire, professeur ou autre membre du personnel scolaire.
+
 
               PS : la plupart des gens en restent à cette étape. Faites la différence !
             </p>
@@ -108,9 +109,9 @@ const Projet = () => (
             <span className="two">2</span>
             <h3>Vous devenez intrapreneur</h3>
             <p>
-              L’agent observateur du problème se sent prêt à porter un produit qui y propose
-              une solution. Il le développe avec l’aide de la communauté sur une échelle de temps
-              relativement courte, en quelques mois. Il <strong>devient intrapreneur</strong> public.
+              L’agent observateur du problème se sent prêt à porter
+              une solution au support numérique. Il la développe avec l’aide de la communauté sur une échelle de temps
+              relativement courte. Il <strong>devient intrapreneur</strong> public.
             </p>
           </li>
           <li>
@@ -118,8 +119,7 @@ const Projet = () => (
             <h3>Vous faites partie des open-académiciens</h3>
             <p>
               Le produit abouti est proposé aux établissements scolaires.
-              L’agent public en assure la promotion et le support avec le soutien de tous,
-              et peut s’il le souhaite aider les autres open-académiciens. Il a <strong>rejoint une
+              L’agent public en assure la promotion et le support avec le soutien de tous. Il a <strong>rejoint une
               communauté</strong> qui oeuvre pour l’amélioration et la modernisation de leur métier.
             </p>
           </li>
