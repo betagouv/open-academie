@@ -19,23 +19,35 @@ class Download extends React.Component {
     this.setState({codeEtablissement: event.target.value});
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
+  handleSubmit(form) {
+    form.preventDefault();
 
-    const etablissementCode = $('#input-name');
-    const emailCode = $('#input-name-email');
-    const inputName = encodeURIComponent(etablissementCode.val() + ' - ' + emailCode.val() + ' - ' + 'page index');
-    const baseURL = this.constant.formUrl;
-    const submitRef = '&submit=submit';
-    const submitURL = (baseURL + inputName + submitRef);
+    const rne = encodeURIComponent(this.state.codeEtablissement);
+    const email = encodeURIComponent(this.state.email);
+    const page = encodeURIComponent(`telechargement depuis la page ${this.constant.id}.html`);
 
-    $(this)[0].action = submitURL;
-    window.location.assign(constant.downloadUrl);
+    let params;
+    if (this.constant.emailEntryRef) {
+      params = `&entry.${this.constant.emailEntryRef}=${email}&entry.${this.constant.pageEntryRef}=${page}`;
+    } else {
+      params = ` - ${email} - ${page}`
+    }
+    const url = this.constant.formUrl + rne + params + '&submit=submit';
+    const http = new XMLHttpRequest();
+    http.open("POST", url, true);
+
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+    http.onreadystatechange = () => {
+      window.location.assign(this.constant.downloadUrl, '_blank');
+    }
+
+    http.send();
   }
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={form => this.handleSubmit(form)}>
         <label>
           Code Etablissement, RNE/UAI:
           <input type="text" value={this.state.codeEtablissement} onChange={this.handleChangeCodeEtablissement} required aria-required="true" />
