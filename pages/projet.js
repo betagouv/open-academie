@@ -168,7 +168,7 @@ const Projet = () => (
           }
 
           p {
-            font-family: 'Quicksand', sans-serif;
+            font-family: "Open Sans", sans-serif;
             line-height: 1.7em;
           }
         `}</style>
