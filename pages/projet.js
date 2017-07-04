@@ -70,12 +70,17 @@ const Projet = () => (
 
       <div>
         <p>
-          Open Académie est un collectif d’agents qui produit des services numériques&nbsp;
-          <strong>gratuits</strong> pour <strong>simplifier</strong> l’administration des établissements scolaires.
+          Open Académie est un collectif d’agents d'établissements scolaires qui produit des services numériques&nbsp;
+          <strong>gratuits</strong> pour en <strong>simplifier</strong> l’administration.
 
           <br />
           <br />
-
+          
+          Notre préoccupation : <strong>améliorer</strong> notre <strong>service public</strong> afin de mieux répondre aux besoins des agents comme des familles.
+  
+          <br />
+          <br /> 
+  
           C’est une Startup d’État développée avec le Secrétariat Général à la Modernisation de l’Action Publique (SGMAP).
         </p>
         <style jsx>{`
