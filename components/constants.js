@@ -116,7 +116,7 @@ export const Products = [
   {
     id: 'votre-projet',
     page: 'votre-projet',
-    title: 'Votre projet',
+    title: 'Boite à idées',
     tagline: 'L’open académicien, c’est vous !',
     description: 'Vous voulez moderniser votre profession ? Vous avez une idée que vous aimeriez développer et pour laquelle vous êtes prêt à vous investir ? Contactez-nous ! On vous attendait',
     imageSource: 'static/lamp.png',
