@@ -81,7 +81,7 @@ const Projet = () => (
           <br />
           <br /> 
   
-          C’est une Startup d’État développée avec le Secrétariat Général à la Modernisation de l’Action Publique (SGMAP).
+          Open Académie est une Startup d’État développée avec le Secrétariat Général à la Modernisation de l’Action Publique (SGMAP).
         </p>
         <style jsx>{`
           p {
