@@ -5,7 +5,7 @@ const Projet = () => (
   <Layout>
     <main>
       <div className="title">
-        <h1>Le projet</h1>
+        <h1>Boîte à idées</h1>
 
         <style jsx>{`
           .title {
