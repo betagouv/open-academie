@@ -44,7 +44,7 @@ const Gemasco = () => (
       />
 
       <div>
-        <h2>Comment importer la police code barre ?</h2>
+        <h2>Comment installer la police code barre ?</h2>
         <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts.</p>
 
         <h2>Avec quel matériel utiliser Gemasco ?</h2>
