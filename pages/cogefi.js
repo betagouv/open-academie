@@ -55,9 +55,9 @@ const Cogefi = () => (
       <ExternalLinks constant={constant} title="Comment ça marche ?" />
 
       <p>
-        Pour plus d’informations, vous pouvez également vous rendre sur
-        <a href="http://www.espaceple.org/spip.php?article272&artsuite=#paragraphe_article_2"> le site </a>
-        de l’association des agents comptables d’EPLE. Ils y partagent conseils d’utilisations, vidéos et
+        Pour plus d’informations, vous pouvez également vous rendre sur 
+        <a href="http://www.espaceple.org/spip.php?article272&artsuite=#paragraphe_article_2">le site</a>
+         de l’association des agents comptables d’EPLE. Ils y partagent conseils d’utilisations, vidéos et
         tutoriels d’utilisation de Cogefi.
 
         <style jsx>{`
