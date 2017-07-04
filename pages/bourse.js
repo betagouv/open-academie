@@ -20,6 +20,10 @@ const timelineItems = [
     date: 'Automne 2016',
     description: 'Bourse est ouvert dans 100 établissements en France',
   },
+  {
+    date: 'Juillet 2017',
+    description: 'Plus de 260 établissements ont déjà demandé à s’inscrire au service',
+  },
 ]
 
 const downloadComponent = <p>Les demandes se font directement sur <a href={ constant.downloadLink.href }>{ constant.downloadLink.label }</a></p>
