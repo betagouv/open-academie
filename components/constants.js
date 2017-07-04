@@ -98,7 +98,7 @@ export const Products = [
     externalLinks: [
       {
         icon: 'static/icon-video.png',
-        label: 'Videos',
+        label: 'Tutoriels',
         href: 'https://www.youtube.com/watch?v=PnIVIGS52fU',
       },
       {
