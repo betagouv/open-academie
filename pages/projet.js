@@ -70,7 +70,7 @@ const Projet = () => (
 
       <div>
         <p>
-          Open Académie est un collectif d’agents d'établissements scolaires qui produit des services numériques&nbsp;
+          Open Académie est un collectif d’agents d’établissements scolaires qui produit des services numériques&nbsp;
           <strong>gratuits</strong> pour en <strong>simplifier</strong> l’administration.
 
           <br />
