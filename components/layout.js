@@ -29,7 +29,7 @@ export default ({ children, title = 'Open Académie' }) => (
           text-align: center;
           padding: 2em 0 4em;
           font-family: 'Quicksand', sans-serif;
-          background-color: #152b29;
+          background-color: rgba(21, 43, 41, 0.5);
           color: white;
         }
 
