@@ -40,7 +40,7 @@ const Projet = () => (
 
         <style jsx>{`
           .why {
-            background-image: url('../static/chair.jpg');
+            background-image: url('../static/Leprojet.jpg');
             background-attachment: fixed;
             background-position: center -125px;
             background-size: cover;
