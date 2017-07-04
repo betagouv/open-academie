@@ -24,7 +24,7 @@ export const Products = [
       {
         icon: 'static/icon-video.png',
         label: 'Tutoriels',
-        href: 'http://www.dailymotion.com/espaceple',
+        href: 'https://www.youtube.com/watch?v=OTHWhZy9oQs&t=2s',
       },
     ],
   },
