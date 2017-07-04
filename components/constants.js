@@ -101,6 +101,11 @@ export const Products = [
         label: 'Videos',
         href: 'https://www.youtube.com/watch?v=PnIVIGS52fU',
       },
+      {
+        icon: 'static/icon-forum.png',
+        label: 'Forum',
+        href: 'http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils',
+      },
     ],
   },
   {
