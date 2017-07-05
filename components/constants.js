@@ -24,7 +24,7 @@ export const Products = [
       {
         icon: 'static/icon-video.png',
         label: 'Tutoriels',
-        href: 'https://www.youtube.com/watch?v=OTHWhZy9oQs&t=2s',
+        href: 'https://www.youtube.com/watch?v=OTHWhZy9oQs',
       },
     ],
   },
@@ -45,7 +45,7 @@ export const Products = [
       {
         icon: 'static/icon-video.png',
         label: 'Tutoriel',
-        href: 'https://www.youtube.com/watch?v=7iErHZXDN6A&t=10s',
+        href: 'https://www.youtube.com/watch?v=7iErHZXDN6A',
       },
     ],
   },
