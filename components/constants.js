@@ -82,7 +82,7 @@ export const Products = [
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
     pageEntryRef: '89190430',
-    downloadUrl: 'static/files/GEMASCO V1.6.rar',
+    downloadUrl: 'static/files/gemasco v1-8-0.zip',
     tagline: 'L’appli qui gère les manuels scolaires',
     description: 'Gemasco commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
     imageSource: 'static/book.png',
