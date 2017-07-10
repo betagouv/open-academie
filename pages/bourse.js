@@ -22,7 +22,7 @@ const timelineItems = [
   },
   {
     date: 'Juillet 2017',
-    description: 'Plus de 260 établissements ont déjà demandé à s’inscrire au service',
+    description: 'Plus de 270 établissements ont déjà demandé à s’inscrire au service',
   },
 ]
 
