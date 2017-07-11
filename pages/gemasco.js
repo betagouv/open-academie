@@ -12,7 +12,7 @@ import { Colors } from '../components/constants'
 
 const constant = Products.find(product => product.id === 'gemasco')
 
-const Gemasco = () => (
+const GemaSCO = () => (
   <Layout>
     <main>
       <ProductHead constant={constant} />
@@ -47,15 +47,15 @@ const Gemasco = () => (
         <h2>Comment installer la police code barre ?</h2>
         <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts.</p>
 
-        <h2>Avec quel matériel utiliser Gemasco ?</h2>
+        <h2>Avec quel matériel utiliser GemaSCO ?</h2>
         <ul>
           <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 60 €</span></li>
           <li>Etiquettes autocollantes 63.5 x 33.9 mm, coins arrondis <span className="muted">6 €HT le paquet de 2400 étiquettes</span></li>
           <li>Etiquettes plastiques pour protéger les codes-barre 50 x 100 mm <span className="muted">26 €HT les 500</span></li>
         </ul>
 
-        <h2>Puis-je utiliser Gemasco en réseau ?</h2>
-        <p>Nous recommandons même que le fichier soit placé sur un lecteur réseau accessible par plusieurs utilisateurs. En revanche, Mobilisco reste un outil mono-utilisateur : plusieurs personnes ne peuvent pas saisir ou modifier les informations en même temps.</p>
+        <h2>Puis-je utiliser GemaSCO en réseau ?</h2>
+        <p>Nous recommandons même que le fichier soit placé sur un lecteur réseau accessible par plusieurs utilisateurs. En revanche, MobiliSCO reste un outil mono-utilisateur : plusieurs personnes ne peuvent pas saisir ou modifier les informations en même temps.</p>
 
         <h2>Je n'ai pas les droits pour extraire la base élèves dans SIECLE</h2>
         <p>Demandez-le à votre chef d'établissement, ce qu'il fera à l'aide de l'application DELEG-CE (dans Sconet-Arena).</p>
@@ -100,4 +100,4 @@ const Gemasco = () => (
   </Layout>
 )
 
-export default Gemasco
+export default GemaSCO
