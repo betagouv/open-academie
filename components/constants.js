@@ -43,6 +43,11 @@ export const Products = [
     },
     externalLinks: [
       {
+        icon: 'static/icon-forum.png',
+        label: 'FAQ',
+        href: 'https://github.com/sgmap/bourses/wiki/FAQ',
+      },
+      {
         icon: 'static/icon-video.png',
         label: 'Tutoriel',
         href: 'https://www.youtube.com/watch?v=7iErHZXDN6A',
