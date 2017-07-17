@@ -51,7 +51,7 @@ const Bourse = () => (
 
       <Corporate
         simple="Comme tous les outils Open Académie, Bourse vise à simplifier concrètement vos opérations d’intendance dans les établissements scolaires. L’intégralité de l’outil est pensée pour procurer à l’utilisateur la meilleure expérience possible."
-        gratuit="Elaboré par des agents, pour des agents, Bourse est libre et gratuit. Cette liberté est matérialisée par une licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)."
+        gratuit="Elaboré par des agents du service public pour eux-mêmes et leurs collègues, Bourse est libre et gratuit. Cette liberté est matérialisée par une licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)."
       />
     </main>
   </Layout>
