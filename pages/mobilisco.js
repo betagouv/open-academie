@@ -20,14 +20,7 @@ const Mobilisco = () => (
       <div className="wrapper">
         <Brief
           description={constant.description}
-          downloadComponent={<Download constant={constant} />
-                             <div className="small">
-                               En ligne : version 5.7.1
-                               Mobilisco fonctionne sur : Microsoft Access 2016, 2013, 2010.
-                               Si vous ne disposez pas de Microsoft Access vous pouvez <Link href="https://www.microsoft.com/fr-fr/download/details.aspx?id=10910"><a>télécharger gratuitement le Runtime Access.</a></Link>
-                             </div>
-
-          } />
+          downloadComponent={<Download constant={constant} />} />
 
         <SalesPoints points={constant.salesPoints} />
 
