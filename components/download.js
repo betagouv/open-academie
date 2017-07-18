@@ -59,7 +59,10 @@ class Download extends React.Component {
 
         <input type="submit" value="Télécharger" />
 
-        
+        <div className="small">
+          {this.constant.title} fonctionne sur : Microsoft Access 2016, 2013, 2010.
+          Si vous ne disposez pas de Microsoft Access vous pouvez <Link href="https://www.microsoft.com/fr-fr/download/details.aspx?id=10910"><a>télécharger gratuitement le Runtime Access.</a></Link>
+        </div>
 
         <style jsx>{`
           form {
