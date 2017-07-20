@@ -36,7 +36,7 @@ const VotreProjet = () => (
       </section>
 
       <div className="call-to-action-button">
-        <ButtonLink href="https://elise127.typeform.com/to/owYn4o" text="Je partage mon projet" className="primary" />
+        <ButtonLink href="https://openacademie.typeform.com/to/AfMzhW" text="Je partage mon projet" className="primary" />
       </div>
 
       <style jsx>{`
