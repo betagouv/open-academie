@@ -59,10 +59,6 @@ const ExternalLinks = ({constant, title, customStyle}) => {
         .wrapper a.right {
           border-left: none;
         }
-
-        .cogefi {
-          border-color: red;
-        }
       `}</style>
     </div>
   )

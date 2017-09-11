@@ -55,32 +55,6 @@ export const Products = [
     ],
   },
   {
-    id: 'cogefi',
-    page: 'cogefi',
-    title: 'Cogefi',
-    formUrl: 'https://docs.google.com/forms/d/1Fsf8ITt2ZTjPmxx43h6kQvIfaLqnK-JoLBY8EkaelXw/formResponse?entry.551798432=',
-    emailEntryRef: '363200688',
-    pageEntryRef: '1506732456',
-    downloadUrl: 'static/files/COGEFI V17.08- XXXXX(remplacer xxxx par le nom étab).zip',
-    tagline: 'Le logiciel d’analyse financière',
-    description: 'Cogefi permet la production rapide et automatique de rapports financiers pour les collèges et lycées',
-    imageSource: 'static/graph.png',
-    color: '#fb2058',
-    background: '',
-    externalLinks: [
-      {
-        icon: 'static/icon-forum.png',
-        label: 'Forum',
-        href: 'http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils',
-      },
-      {
-        icon: 'static/icon-video.png',
-        label: 'Tutoriels',
-        href: 'http://www.dailymotion.com/espaceple',
-      },
-    ],
-  },
-  {
     id: 'gemasco',
     page: 'gemasco',
     title: 'Gemasco',

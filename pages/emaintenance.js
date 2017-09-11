@@ -11,7 +11,7 @@ import { Colors } from '../components/constants'
 
 const constant = Products.find(product => product.id === 'emaintenance')
 
-const Cogefi = () => (
+const EMaintenance = () => (
   <Layout>
     <main>
       <ProductHead constant={constant} />
@@ -68,4 +68,4 @@ const Cogefi = () => (
   </Layout>
 )
 
-export default Cogefi
+export default EMaintenance
