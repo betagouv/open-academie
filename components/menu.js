@@ -7,7 +7,9 @@ import { Products } from './constants'
 class Menu extends Component {
   constructor(props) {
     super(props)
+    console.log(props)
     this.state = {
+      theme: props.background,
       hoverDropdown: false,
       hoverLink: false
     }
@@ -38,12 +40,12 @@ class Menu extends Component {
 
     return (
       <header>
-        <nav>
+        <nav className={this.state.theme}>
           <ul id="menu">
             <li><Link href="/"><a>Accueil</a></Link></li>
-            <li id="nav-les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/outils">Les outils</a></li>
-            <li id="nav-je-projet"><Link href="/projet"><a>Le projet</a></Link></li>
-            <li><Link href="mailto:openacademie@beta.gouv.fr"><a>Contact</a></Link></li>
+            <li id="les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/outils">Les outils</a></li>
+            <li id="je-projet"><Link href="/projet"><a>Le projet</a></Link></li>
+            <li><Link href="/contact"><a>Contact</a></Link></li>
           </ul>
 
           <div className={dropDownClass}>
@@ -64,12 +66,27 @@ class Menu extends Component {
             text-align: right;
           }
 
+          .light {
+            background-color: none;
+          }
+
+          .light ul#menu li a {
+            color: #333;
+          }
+
+          .dark {
+            background-color: rgba(19, 0, 0, 0.21);
+          }
+
+          .dark ul#menu li a {
+            color: white;
+          }
+
           nav {
             position: fixed;
             display: flex;
             justify-content: flex-end;
             width: 100vw;
-            background-color: rgba(19, 0, 0, 0.21);
             height: 50px;
             z-index: 1;
           }

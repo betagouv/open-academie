@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Menu from './menu'
 
-export default ({ children, title = 'Open Académie' }) => (
+export default ({ children, title = 'Open Académie', background = 'dark' }) => (
   <div>
     <Head>
       <title>{ title }</title>
@@ -14,7 +14,7 @@ export default ({ children, title = 'Open Académie' }) => (
       <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet" />
     </Head>
 
-    <Menu />
+    <Menu background={background} />
 
     <div>
       { children }
