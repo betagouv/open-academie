@@ -7,7 +7,6 @@ import { Products } from './constants'
 class Menu extends Component {
   constructor(props) {
     super(props)
-    console.log(props)
     this.state = {
       theme: props.background,
       hoverDropdown: false,
