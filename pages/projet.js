@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 
 const Projet = () => (
-  <Layout>
+  <Layout title="Le projet">
     <main>
       <div className="title">
         <h1>Le projet</h1>
@@ -75,12 +75,12 @@ const Projet = () => (
 
           <br />
           <br />
-          
+
           Notre préoccupation : <strong>améliorer</strong> notre <strong>service public</strong> afin de mieux répondre aux besoins des agents comme des familles.
-  
+
           <br />
-          <br /> 
-  
+          <br />
+
           Open Académie est une Startup d’État développée avec le Secrétariat Général à la Modernisation de l’Action Publique (SGMAP).
         </p>
         <style jsx>{`

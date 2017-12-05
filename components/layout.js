@@ -2,10 +2,10 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Menu from './menu'
 
-export default ({ children, title = 'Open Académie', background = 'dark' }) => (
+export default ({ children, title = '', background = 'dark' }) => (
   <div>
     <Head>
-      <title>{ title }</title>
+      <title>{ title ? `${title} - Open Académie` : 'Open Académie'}</title>
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
