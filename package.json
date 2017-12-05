@@ -15,6 +15,6 @@
     "build": "next build",
     "dev": "next",
     "postinstall": "yarn build",
-    "deploy": "next build && next export -o docs && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master"
+    "deploy": "next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"openacademie.beta.gouv.fr\" >> out/CNAME && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   }
 }
