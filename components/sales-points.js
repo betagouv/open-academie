@@ -6,14 +6,14 @@ const SalesPoints = ({ points }) => (
       {
         points.map((point, idx) => (
           <li key={idx}>
-            <img src="static/check.png" />
+            <img src='/static/check.png' />
             <p>{ point }</p>
           </li>
         ))
       }
       <li>
-        <img src="static/check.png" />
-        <p className="free">Libre et gratuit</p>
+        <img src='/static/check.png' />
+        <p className='free'>Libre et gratuit</p>
       </li>
     </ul>
 
