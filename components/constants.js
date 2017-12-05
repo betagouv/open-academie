@@ -34,7 +34,7 @@ export const Products = [
     title: 'Bourse',
     tagline: 'Vos demandes de bourses sans papier',
     description: 'Bourse est un outil de demande en ligne de bourse de collège, pour le bonheur des intendants comme des parents',
-    imageSource: 'static/hat.png',
+    imageSource: '/static/hat.png',
     color: '#29adad',
     background: '',
     downloadLink: {
