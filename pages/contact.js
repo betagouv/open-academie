@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 
 export default () => (
-  <Layout background={'light'}>
+  <Layout title='Contactez-nous' background={'light'}>
     <main>
       <h1>Idée, problème, ou simple envie de discuter, nous sommes à votre écoute.</h1>
 

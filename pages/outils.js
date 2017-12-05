@@ -5,7 +5,7 @@ import SectionTitle from '../components/section-title'
 import HomeItem from '../components/home-item'
 
 const Outils = () => (
-  <Layout>
+  <Layout title='Les outils'>
     <main>
       <section id="les-outils">
         <div className="title">

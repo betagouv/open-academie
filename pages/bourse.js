@@ -29,7 +29,7 @@ const timelineItems = [
 const downloadComponent = <p>Les demandes se font directement sur <a href={ constant.downloadLink.href }>{ constant.downloadLink.label }</a></p>
 
 const Bourse = () => (
-  <Layout>
+  <Layout title={constant.title}>
     <main>
       <ProductHead constant={constant} />
 

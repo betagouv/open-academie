@@ -6,7 +6,7 @@ import ButtonLink from '../components/button-link'
 const constant = Products.find(product => product.id === 'votre-projet')
 
 const VotreProjet = () => (
-  <Layout>
+  <Layout title={constant.title}>
     <main>
       <div className="title" style={{ backgroundImage:  `url(${constant.background})`}}>
         <h1>{ constant.title }</h1>

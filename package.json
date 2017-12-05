@@ -10,8 +10,12 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^1.3.0"
+  },
   "scripts": {
-    "start": "next start -p $PORT",
+    "dev": "next dev",
+    "start": "next start",
     "build": "next build",
     "dev": "next",
     "postinstall": "yarn build",

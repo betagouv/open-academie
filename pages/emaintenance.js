@@ -12,7 +12,7 @@ import { Colors } from '../components/constants'
 const constant = Products.find(product => product.id === 'emaintenance')
 
 const EMaintenance = () => (
-  <Layout>
+  <Layout title={constant.title}>
     <main>
       <ProductHead constant={constant} />
 
