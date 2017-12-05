@@ -5,14 +5,16 @@
   "author": "Florian Delezenne <del.florian@gmail.com>",
   "homepage": "https://sgmap.github.io/open-academie-next",
   "dependencies": {
-    "next": "latest",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3"
+    "gh-pages": "^1.1.0",
+    "next": "^4.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "scripts": {
     "start": "next start -p $PORT",
     "build": "next build",
     "dev": "next",
-    "postinstall": "yarn build"
+    "postinstall": "yarn build",
+    "deploy": "next export -o docs && touch ./docs/.nojekyll"
   }
 }
