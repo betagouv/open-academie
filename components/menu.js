@@ -42,7 +42,11 @@ class Menu extends Component {
         <nav className={this.state.theme}>
           <ul id="menu">
             <li><Link href="/"><a>Accueil</a></Link></li>
-            <li id="les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}><a href="/outils">Les outils</a></li>
+            <li id="les-outils" onMouseLeave={() => this.leaveLink()} onMouseEnter={() => this.enterLink()}>
+              <Link href="/outils">
+                <a>Les outils</a>
+              </Link>
+            </li>
             <li id="je-projet"><Link href="/projet"><a>Le projet</a></Link></li>
             <li><Link href="/contact"><a>Contact</a></Link></li>
           </ul>

@@ -15,6 +15,6 @@
     "build": "next build",
     "dev": "next",
     "postinstall": "yarn build",
-    "deploy": "next export -o docs && touch ./docs/.nojekyll"
+    "deploy": "next build && next export -o docs && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master"
   }
 }
