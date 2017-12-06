@@ -30,7 +30,7 @@ export const Products = [
   },
   {
     id: 'bourse',
-    page: 'bourse',
+    page: '/bourse',
     title: 'Bourse',
     tagline: 'Vos demandes de bourses sans papier',
     description: 'Bourse est un outil de demande en ligne de bourse de collège, pour le bonheur des intendants comme des parents',
@@ -56,7 +56,7 @@ export const Products = [
   },
   {
     id: 'gemasco',
-    page: 'gemasco',
+    page: '/gemasco',
     title: 'Gemasco',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
@@ -89,7 +89,7 @@ export const Products = [
   },
   {
     id: 'emaintenance',
-    page: 'emaintenance',
+    page: '/emaintenance',
     title: 'E-maintenance',
     tagline: 'Réparer n\'est plus un problème',
     description: 'L\'appli e-maintenance permet l\'entretien et la gestion de tout type de matériel au sein d\'un établissement, de l\'ampoule grillée au rétroprojecteur en panne.',
@@ -99,7 +99,7 @@ export const Products = [
   },
   {
     id: 'votre-projet',
-    page: 'votre-projet',
+    page: '/votre-projet',
     title: 'Boite à idées',
     tagline: 'L’open académicien, c’est vous !',
     description: 'Vous voulez moderniser votre profession ? Vous avez une idée que vous aimeriez développer et pour laquelle vous êtes prêt à vous investir ? Contactez-nous ! On vous attendait',
