@@ -19,6 +19,6 @@
     "build": "next build",
     "dev": "next",
     "postinstall": "yarn build",
-    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -t -d out"
   }
 }
