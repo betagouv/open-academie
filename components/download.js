@@ -88,6 +88,10 @@ class Download extends React.Component {
             padding: 5px 10px;
           }
 
+          input:invalid {
+            box-shadow: none;
+          }
+
           input[type="submit"] {
             margin: 10px 0;
             color: #fff;
