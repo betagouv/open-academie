@@ -41,7 +41,7 @@ const Mobilisco = () => (
         ]}
       />
 
-  <ExternalLinks constant={constant} />
+      <ExternalLinks constant={constant} />
 
       <Corporate
         simple="Comme tous les outils Open Académie, Mobilisco vise à simplifier concrètement vos opérations de gestion des établissements scolaires. Tout en gardant les outils que vous connaissez, c’est la fonctionnalité (plutôt que l’apparence) qui est repensée."

@@ -55,6 +55,21 @@ export const Products = [
     ],
   },
   {
+    id: 'opencartecomptable',
+    page: '/opencartecomptable',
+    title: 'OpenCarteComptable',
+    tagline: 'Votre établissement fait-il partie du registre national des agences comptables ?',
+    description: 'Permettre à chaque agent de consulter les composantes de l\'agence comptable. Donner une photographie nationale de la carte des agences comptables et des éléments de comparaison.',
+    imageSource: '/static/globe.png',
+    color: '#ff6969',
+    background: '',
+    salesPoints: [
+      'Connaître le détail de l\'agence comptable où je compte muter',
+      'Comparer la taille des agences selon les académies',
+      'Mis à jour par la communauté, en mode wiki'
+    ]
+  },
+  {
     id: 'gemasco',
     page: '/gemasco',
     title: 'Gemasco',
@@ -101,7 +116,7 @@ export const Products = [
     id: 'votre-projet',
     page: '/votre-projet',
     title: 'Boite à idées',
-    tagline: 'L’open académicien, c’est vous !',
+    tagline: 'L’open académicien, c’est vous',
     description: 'Vous voulez moderniser votre profession ? Vous avez une idée que vous aimeriez développer et pour laquelle vous êtes prêt à vous investir ? Contactez-nous ! On vous attendait',
     imageSource: '/static/lamp.png',
     color: '#ffd966',
