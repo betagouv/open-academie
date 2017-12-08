@@ -168,7 +168,7 @@ class Menu extends Component {
             border-radius: 4px;
             overflow: hidden;
             box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
-            width: 590px;
+            width: 690px;
             height: 340px;
           }
 
@@ -177,7 +177,7 @@ class Menu extends Component {
             position: absolute;
             top: 0;
             left: 0;
-            width: 520px;
+            width: 620px;
             height: 300px;
             padding: 20px 35px;
           }
