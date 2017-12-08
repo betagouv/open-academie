@@ -19,7 +19,7 @@ const OpenCarteComptable = () => (
 
         <Brief
           description={constant.description}
-          downloadComponent={<ButtonLink href="https://opencartecomptabletest.000webhostapp.com" text="Open Carte Comptable" className="primary" />} />
+          downloadComponent={<ButtonLink href="http://opencartecomptable.fr" text="Open Carte Comptable" className="primary" />} />
 
         <SalesPoints points={constant.salesPoints} />
 
