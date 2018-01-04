@@ -10,6 +10,7 @@ export const Products = [
     imageSource: '/static/arrow.png',
     color: '#24b47e',
     background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1J9u0GSjmOsuFyvRc_n40MIeOaOI',
     salesPoints: [
       'Inscription des élèves aux voyages et édition des lettres d\'engagement des familles',
       'Edition des budgets, bilan financier, justificatif des ordres de recettes et documents en tout genre',
@@ -82,6 +83,7 @@ export const Products = [
     imageSource: '/static/book.png',
     color: '#ff7b19',
     background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
     salesPoints: [
       'Création d\'étiquettes code-barre à coller sur les manuels scolaires',
       'Prêt et retour automatisé',
