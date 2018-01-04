@@ -6,6 +6,7 @@ import Download from '../components/download'
 import SalesPoints from '../components/sales-points'
 import Corporate from '../components/corporate'
 import HowToSteps from '../components/how-to-steps'
+import Iframe from '../components/iframe'
 import ExternalLinks from '../components/external-links'
 import { Products } from '../components/constants'
 import { Colors } from '../components/constants'
@@ -33,6 +34,8 @@ const Gemasco = () => (
         `}</style>
       </div>
 
+      <Iframe title="Qui utilise Gemasco ?" url={constant.mapUrl} />
+
       <HowToSteps
         steps={[
           'Installer la police code barre *',
@@ -45,7 +48,7 @@ const Gemasco = () => (
 
       <div>
         <h2>Comment installer la police code barre ?</h2>
-        <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts.</p>
+        <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts."</p>
 
         <h2>Avec quel matériel utiliser Gemasco ?</h2>
         <ul>

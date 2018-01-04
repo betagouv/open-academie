@@ -7,6 +7,7 @@ import SalesPoints from '../components/sales-points'
 import Corporate from '../components/corporate'
 import HowToSteps from '../components/how-to-steps'
 import ExternalLinks from '../components/external-links'
+import Iframe from '../components/iframe'
 import { Products } from '../components/constants'
 import { Colors } from '../components/constants'
 
@@ -31,6 +32,8 @@ const Mobilisco = () => (
           }
         `}</style>
       </div>
+
+      <Iframe title="Qui utilise Mobilisco ?" url={constant.mapUrl} />
 
       <HowToSteps
         steps={[
