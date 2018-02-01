@@ -38,7 +38,7 @@ const Mobilisco = () => (
       <HowToSteps
         steps={[
           'Télécharger',
-          'Importer la base',
+          'Importer la base élèves',
           'Saisir les constantes de l\'établissement',
           'Saisir les données du voyage'
         ]}
