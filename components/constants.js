@@ -14,7 +14,7 @@ export const Products = [
     salesPoints: [
       'Inscription des élèves aux voyages et édition des lettres d\'engagement des familles',
       'Edition des budgets, bilan financier, justificatif des ordres de recettes et documents en tout genre',
-      'Suivi des encaissements sur un document unique',
+      'Suivi des encaissements sur un document unique ou par transfert dans GFC',
     ],
     externalLinks: [
       {
