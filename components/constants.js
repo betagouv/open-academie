@@ -115,27 +115,15 @@ export const Products = [
     background: '',
   },
   {
-    id: 'votre-projet',
-    page: '/votre-projet',
-    title: 'Votre projet',
-    tagline: 'L’open académicien, c’est vous',
-    description: 'Vous voulez moderniser votre profession ? Vous avez une idée que vous aimeriez développer et pour laquelle vous êtes prêt à vous investir ? Contactez-nous ! On vous attendait',
-    imageSource: '/static/lamp.png',
-    color: '#ffd966',
-    background: '/static/votre-projet.jpg',
-  }
-    {
     id: 'trombinosco',
     page: '/trombinosco',
     title: 'Trombinosco',
-    formUrl: 'formulaire Ooggle à créer ?',
     downloadUrl: '/static/files/trombinosco_1-2_.zip',
     tagline: 'Les photos des élèves avec le sourire',
     description: 'Un logiciel de gestion des photos, qui génère facilement les cartes de lycéen ou les trombinoscopes',
     imageSource: '/static/logotrombi.png',
     color: '#a31390',
     background: '',
-    mapUrl: 'Map Ooggle à créer ?',
     salesPoints: [
       'Pilote l\'imprimante à badges pour générer des cartes de lycéen infalsifiables',
       'Fournit des trombinoscopes pour n\'importe quel groupe pédagogique d\'après les enseignements signalés dans SIECLE',
@@ -148,6 +136,16 @@ export const Products = [
         href: 'http://gestionnaires.actifforum.com/t35786-trombinosco-exploitez-a-fond-les-photos-des-eleves-et-des-personnels?highlight=trombinosco',
       },
     ],
+  },
+  {
+    id: 'votre-projet',
+    page: '/votre-projet',
+    title: 'Votre projet',
+    tagline: 'L’open académicien, c’est vous',
+    description: 'Vous voulez moderniser votre profession ? Vous avez une idée que vous aimeriez développer et pour laquelle vous êtes prêt à vous investir ? Contactez-nous ! On vous attendait',
+    imageSource: '/static/lamp.png',
+    color: '#ffd966',
+    background: '/static/votre-projet.jpg',
   },
 ]
 
