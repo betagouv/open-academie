@@ -34,7 +34,7 @@ const Gemasco = () => (
         `}</style>
       </div>
 
-      <Iframe title="Qui utilise Gemasco ?" url={constant.mapUrl} />
+      <Iframe title="Qui utilise GemaSCO ?" url={constant.mapUrl} />
 
       <HowToSteps
         steps={[
@@ -48,17 +48,17 @@ const Gemasco = () => (
 
       <div>
         <h2>Comment installer la police code barre ?</h2>
-        <p>Placez le fichier .TTF dans le dossier "Fonts" du répertoire Windows: "C:\Windows\Fonts."</p>
+        <p>Un bouton dans le menu des Paramètres de GemaSCO vous permet de l'installer en quelques clics</p>
 
-        <h2>Avec quel matériel utiliser Gemasco ?</h2>
+        <h2>Avec quel matériel utiliser GemaSCO ?</h2>
         <ul>
-          <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 60 €</span></li>
+          <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 40 €</span></li>
           <li>Etiquettes autocollantes 63.5 x 33.9 mm, coins arrondis <span className="muted">6 €HT le paquet de 2400 étiquettes</span></li>
           <li>Etiquettes plastiques pour protéger les codes-barre 50 x 100 mm <span className="muted">26 €HT les 500</span></li>
         </ul>
 
-        <h2>Puis-je utiliser Gemasco en réseau ?</h2>
-        <p>Nous recommandons même que le fichier soit placé sur un lecteur réseau accessible par plusieurs utilisateurs. En revanche, Mobilisco reste un outil mono-utilisateur : plusieurs personnes ne peuvent pas saisir ou modifier les informations en même temps.</p>
+        <h2>Puis-je utiliser GemaSCO en réseau ?</h2>
+        <p>Les fonctions réseau peuvent être activées à condition de disposer d'une licence complète MS Access, et d'une supervision par une personne sachant comment agir. Explications en vidéo : https://pe.ertu.be/videos/watch/867d6e5d-4c7c-4cbf-98dd-988527331768</p>
 
         <h2>Je n'ai pas les droits pour extraire la base élèves dans SIECLE</h2>
         <p>Demandez-le à votre chef d'établissement, ce qu'il fera à l'aide de l'application DELEG-CE (dans Sconet-Arena).</p>
