@@ -38,7 +38,7 @@ const Gemasco = () => (
 
       <HowToSteps
         steps={[
-          'Installer la police code barre *',
+          'Installer la police code-barre *',
           'Importer la base élève',
           'Saisir les constantes de l\'établissement',
           'Saisir la liste des manuels prêtés dans votre établissement',
@@ -48,7 +48,7 @@ const Gemasco = () => (
 
       <div>
         <h2>Comment installer la police code barre ?</h2>
-        <p>Un bouton dans le menu des Paramètres de GemaSCO vous permet de l'installer en quelques clics</p>
+        <p>Un bouton dans le menu des Paramètres de GemaSCO vous permet de l\'installer en quelques clics</p>
 
         <h2>Avec quel matériel utiliser GemaSCO ?</h2>
         <ul>
@@ -58,10 +58,10 @@ const Gemasco = () => (
         </ul>
 
         <h2>Puis-je utiliser GemaSCO en réseau ?</h2>
-        <p>Les fonctions réseau peuvent être activées à condition de disposer d'une licence complète MS Access, et d'une supervision par une personne sachant comment agir. Explications en vidéo : https://pe.ertu.be/videos/watch/867d6e5d-4c7c-4cbf-98dd-988527331768</p>
+        <p>Les fonctions réseau peuvent être activées à condition de disposer d\'une licence complète MS Access, et d\'une supervision par une personne sachant comment agir. Explications en vidéo : https://pe.ertu.be/videos/watch/867d6e5d-4c7c-4cbf-98dd-988527331768</p>
 
         <h2>Je n'ai pas les droits pour extraire la base élèves dans SIECLE</h2>
-        <p>Demandez-le à votre chef d'établissement, ce qu'il fera à l'aide de l'application DELEG-CE (dans Sconet-Arena).</p>
+        <p>Demandez-le à votre chef d\'établissement, ce qu\'il fera à l'aide de l\'application DELEG-CE (dans Sconet-Arena).</p>
 
         <style jsx>{`
           div {
