@@ -2,9 +2,9 @@ export const Products = [
   {
     id: 'mobilisco',
     page: '/mobilisco',
-    title: 'Mobilisco 6',
+    title: 'MobiliSCO 6.2',
     formUrl: 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=',
-    downloadUrl: '/static/files/MOBILISCO_V6.zip',
+    downloadUrl: '/static/files/MOBILISCO_V6-2.zip',
     tagline: 'Les voyages scolaires cessent d’être un enfer',
     description: 'Un logiciel de gestion de vos voyages scolaires, depuis l’inscription des élèves jusqu’au bilan financier',
     imageSource: '/static/arrow.png',
@@ -14,7 +14,7 @@ export const Products = [
     salesPoints: [
       'Inscription des élèves aux voyages et édition des lettres d\'engagement des familles',
       'Edition des budgets, bilan financier, justificatif des ordres de recettes et documents en tout genre',
-      'Suivi des encaissements sur un document unique ou par transfert dans GFC',
+      'Suivi des encaissements par transfert dans GFC',
     ],
     externalLinks: [
       {
@@ -73,13 +73,13 @@ export const Products = [
   {
     id: 'gemasco',
     page: '/gemasco',
-    title: 'Gemasco 2.0',
+    title: 'GemaSCO 2.0',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
     pageEntryRef: '89190430',
     downloadUrl: '/static/files/gemasco_v2-0.zip',
     tagline: 'L’appli qui gère les manuels scolaires',
-    description: 'Gemasco commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
+    description: 'GemaSCO commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
     imageSource: '/static/book.png',
     color: '#ff7b19',
     background: '',
@@ -117,7 +117,7 @@ export const Products = [
   {
     id: 'trombinosco',
     page: '/trombinosco',
-    title: 'Trombinosco',
+    title: 'TrombinoSCO 1.2',
     downloadUrl: '/static/files/trombinosco_1-2_.zip',
     tagline: 'Les photos des élèves avec le sourire',
     description: 'Un logiciel de gestion des photos, qui génère facilement les cartes de lycéen ou les trombinoscopes',
