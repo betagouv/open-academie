@@ -2,7 +2,7 @@ export const Products = [
   {
     id: 'mobilisco',
     page: '/mobilisco',
-    title: 'MobiliSCO 6.2',
+    title: 'MobiliSCO 6.2.5',
     formUrl: 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=',
     downloadUrl: '/static/files/MobiliSCO_V6-2.zip',
     tagline: 'Les voyages scolaires cessent d’être un enfer',
