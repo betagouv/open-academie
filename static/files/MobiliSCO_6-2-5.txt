@@ -1,0 +1,3 @@
+MobiliSCO 6.2.5 est désormais obsolète
+Dupliquer ce fichier avec le numéro de version que l'on veut signaler comme remplacé aux utilisateurs
+(fonctionne à partir de 6.2.6)
