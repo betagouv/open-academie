@@ -2,7 +2,7 @@ export const Products = [
   {
     id: 'mobilisco',
     page: '/mobilisco',
-    title: 'MobiliSCO 6.2.5',
+    title: 'MobiliSCO 6.2.6',
     formUrl: 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=',
     downloadUrl: '/static/files/MobiliSCO_V6-2.zip',
     tagline: 'Les voyages scolaires cessent d’être un enfer',
@@ -73,7 +73,7 @@ export const Products = [
   {
     id: 'gemasco',
     page: '/gemasco',
-    title: 'GemaSCO 2.0',
+    title: 'GemaSCO 2.0.2',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
     pageEntryRef: '89190430',
