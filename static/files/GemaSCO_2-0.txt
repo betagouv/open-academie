@@ -1,0 +1,1 @@
+Ce fichier sert à déclarer l'obsolescence de la version mentionnée en nom du fichier.
