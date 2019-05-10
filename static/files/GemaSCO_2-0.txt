@@ -1,1 +1,2 @@
 Ce fichier sert à déclarer l'obsolescence de la version mentionnée en nom du fichier.
+Fonctionnel à partir de GemaSCO 2.2 (mai 2019)
