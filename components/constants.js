@@ -117,8 +117,8 @@ export const Products = [
   {
     id: 'trombinosco',
     page: '/trombinosco',
-    title: 'TrombinoSCO 1.2',
-    downloadUrl: '/static/files/trombinosco_1-2_.zip',
+    title: 'TrombinoSCO 2.0',
+    downloadUrl: '/static/files/TrombinoSCO_2-0.zip',
     tagline: 'Les photos des élèves avec le sourire',
     description: 'Un logiciel de gestion des photos, qui génère facilement les cartes de lycéen ou les trombinoscopes',
     imageSource: '/static/logotrombi.png',
@@ -133,7 +133,7 @@ export const Products = [
       {
         icon: '/static/icon-forum.png',
         label: 'Forum',
-        href: 'http://gestionnaires.actifforum.com/t35786-trombinosco-exploitez-a-fond-les-photos-des-eleves-et-des-personnels?highlight=trombinosco',
+        href: 'http://gestionnaires.actifforum.com/t35786-trombinosco-exploitez-a-fond-les-photos-des-eleves-et-des-personnels',
       },
     ],
   },
