@@ -18,3 +18,6 @@ Deployer sur gh-pages:
 ```bash
 yarn deploy
 ```
+## Licence
+
+Ce dépôt est publié par la DINSIC sous [licence MIT](LICENSE).
