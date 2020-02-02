@@ -2,9 +2,9 @@ export const Products = [
   {
     id: 'mobilisco',
     page: '/mobilisco',
-    title: 'MobiliSCO 6.2.6',
+    title: 'MobiliSCO 7.0',
     formUrl: 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=',
-    downloadUrl: '/static/files/MobiliSCO_V6-2-6.zip',
+    downloadUrl: '/static/files/MobiliSCO_V7-0.exe',
     tagline: 'Les voyages scolaires cessent d’être un enfer',
     description: 'Un logiciel de gestion de vos voyages scolaires, depuis l’inscription des élèves jusqu’au bilan financier',
     imageSource: '/static/arrow.png',
