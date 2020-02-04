@@ -25,7 +25,7 @@ export const Products = [
       {
         icon: '/static/icon-video.png',
         label: 'Tutoriels',
-        href: 'https://www.youtube.com/watch?v=OTHWhZy9oQs',
+        href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
       },
     ],
   },
@@ -95,7 +95,7 @@ export const Products = [
       {
         icon: '/static/icon-video.png',
         label: 'Tutoriels',
-        href: 'https://www.youtube.com/watch?v=PnIVIGS52fU',
+        href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
       },
       {
         icon: '/static/icon-forum.png',
