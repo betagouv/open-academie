@@ -48,7 +48,7 @@ const Mobilisco = () => (
 
       <Corporate
         simple="Comme tous les outils Open Académie, MobiliSCO vise à simplifier concrètement vos opérations de gestion des établissements scolaires. Tout en gardant les outils que vous connaissez, c’est la fonctionnalité (plutôt que l’apparence) qui est repensée."
-        gratuit="Elaboré par des agents du service public pour eux-mêmes et leurs collègues, MobiliSCO est libre et gratuit. Cette liberté est matérialisée par la licence GPL, utilisée par la majorité des logiciels libres (Linux, Firefox, Libre Office...)."
+        gratuit="Elaboré par des agents du service public pour eux-mêmes et leurs collègues, MobiliSCO est libre et gratuit. Cette liberté est matérialisée par la licence EUPL 1.2, Licence publique de l'Union européenne."
       />
     </main>
   </Layout>
