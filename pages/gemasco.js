@@ -38,11 +38,10 @@ const Gemasco = () => (
 
       <HowToSteps
         steps={[
-          'Installer la police code-barre *',
           'Importer la base élève',
           'Saisir les constantes de l\'établissement',
           'Saisir la liste des manuels prêtés dans votre établissement',
-          'Création des étiquettes code barre'
+          'Installer la police code-barres et créer les étiquettes code-barres'
         ]}
       />
 
@@ -52,13 +51,13 @@ const Gemasco = () => (
 
         <h2>Avec quel matériel utiliser GemaSCO ?</h2>
         <ul>
-          <li>Lecteur optique de code barre (ou "douchette") avec port USB <span className="muted">environ 40 €</span></li>
+          <li>Lecteur optique de code-barres (ou "douchette") avec port USB <span className="muted">environ 40 €</span></li>
           <li>Etiquettes autocollantes 63.5 x 33.9 mm, coins arrondis <span className="muted">6 €HT le paquet de 2400 étiquettes</span></li>
           <li>Etiquettes plastiques pour protéger les codes-barre 50 x 100 mm <span className="muted">26 €HT les 500</span></li>
         </ul>
 
         <h2>Puis-je utiliser GemaSCO en réseau ?</h2>
-        <p>Les fonctions réseau peuvent être activées à condition de disposer d\'une licence complète MS Access, et d\'une supervision par une personne sachant comment agir. Explications en vidéo : https://pe.ertu.be/videos/watch/867d6e5d-4c7c-4cbf-98dd-988527331768</p>
+        <p>Les fonctions réseau peuvent être activées par une personne sachant comment agir. Explications en vidéo : https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos</p>
 
         <h2>Je n'ai pas les droits pour extraire la base élèves dans SIECLE</h2>
         <p>Demandez-le à votre chef d\'établissement, ce qu\'il fera à l'aide de l\'application DELEG-CE (dans Sconet-Arena).</p>
