@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Brief from '../components/brief'
 import ProductHead from '../components/product-head'
-import ButtonLink from '../components/button-link'
+import Download from '../components/download'
 import SalesPoints from '../components/sales-points'
 import Corporate from '../components/corporate'
 import HowToSteps from '../components/how-to-steps'
@@ -21,7 +21,8 @@ const Trombinosco = () => (
       <div className="wrapper">
         <Brief
           description={constant.description}
-          downloadComponent={<ButtonLink href={constant.downloadUrl} download={true} text="Télécharger" className="primary" />} />
+          downloadComponent={<Download constant={constant} />} />
+
 
         <SalesPoints points={constant.salesPoints} />
 
@@ -32,6 +33,8 @@ const Trombinosco = () => (
           }
         `}</style>
       </div>
+
+      <Iframe title="Qui utilise TrombinoSCO ?" url={constant.mapUrl} />
 
       <HowToSteps
         steps={[
