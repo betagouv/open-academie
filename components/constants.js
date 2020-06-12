@@ -113,6 +113,7 @@ export const Products = [
     imageSource: '/static/wrench.png',
     color: '#7dd2c2',
     background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
   },
   {
     id: 'trombinosco',
@@ -127,6 +128,7 @@ export const Products = [
     imageSource: '/static/logotrombi.png',
     color: '#a31390',
     background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1Jfi6lLgHjqiQ-C92aeyFbHius3mbFxB7',
     salesPoints: [
       'Pilote l\'imprimante à badges pour générer des cartes de lycéen infalsifiables',
       'Fournit des trombinoscopes pour n\'importe quel groupe pédagogique d\'après les enseignements signalés dans SIECLE',
