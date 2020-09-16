@@ -49,7 +49,7 @@ const Trombinosco = () => (
 
       <Corporate
         simple="Comme tous les outils Open Académie, Trombinosco vise à simplifier concrètement vos opérations de gestion des établissements scolaires. TrombinoSCO professionnalise la gestion des photos des élèves, au bénéfice de la vie scolaire, des enseignants et du pôle administratif."
-        gratuit="Elaboré par des agents du service public pour eux-mêmes et leurs collègues, Trombinosco est libre et gratuit. Cette liberté est matérialisée par la licence EUPL 1.2, validée par l'Union européenne dans es 17 langues officielles."
+        gratuit="Elaboré par des agents du service public pour eux-mêmes et leurs collègues, TrombinoSCO est libre et gratuit. Cette liberté est matérialisée par la licence EUPL 1.2, validée par l'Union européenne dans ses 17 langues officielles."
       />
     </main>
   </Layout>
