@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title class="next-head">CédiSCO 1.0 - Open Académie</title>
+		<meta charSet="utf-8" class="next-head"/>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" class="next-head"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" class="next-head"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet" class="next-head"/>
+		<link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet" class="next-head"/>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet" class="next-head"/>
+		<link rel="preload" href="/_next/abbc0563-0777-4ba1-b419-55e19f409694/page/gemasco.js" as="script"/>
+		<link rel="preload" href="/_next/abbc0563-0777-4ba1-b419-55e19f409694/page/_error.js" as="script"/>
+		<link rel="preload" href="/_next/d3982f870acb8073600a441159795bcf/app.js" as="script"/>
+		<style id="__jsx-686673499">
+			.list-item.jsx-686673499
+			{
+				text-align:left;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex:1 0 50%;
+				-ms-flex:1 0 50%;
+				flex:1 0 50%;
+			}
+			h3.jsx-686673499
+			{
+				color:#222;
+			}
+			.link-container.jsx-686673499
+			{
+				padding:18px 10px;
+				-webkit-flex:1;
+				-ms-flex:1;
+				flex:1;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;text-decoration:none;
+			}
+			.link-container.jsx-686673499 img.jsx-686673499
+			{
+				min-width:50px;
+				min-height:50px;
+				width:50px;
+				height:50px;
+			}
+			.link-content.jsx-686673499
+			{
+				margin-left:20px;
+			}
+			.link-content.jsx-686673499 h3.jsx-686673499
+			{
+				margin:0;
+				font-weight:400;
+			}
+			.link-content.jsx-686673499 p.jsx-686673499
+			{
+				color:#797979;
+				margin-top:10px;
+				margin-bottom:0;
+			}
+		</style>
+		<style id="__jsx-3898527981">
+			header.jsx-3898527981
+			{
+				text-align:right;
+			}
+			.light.jsx-3898527981
+			{
+				background-color:none;
+			}
+			.light.jsx-3898527981 ul#menu.jsx-3898527981 li.jsx-3898527981 a.jsx-3898527981
+			{
+				color:#333;
+			}
+			.dark.jsx-3898527981
+			{
+				background-color:rgba(19,0,0,0.21);
+			}
+			.dark.jsx-3898527981 ul#menu.jsx-3898527981 li.jsx-3898527981 a.jsx-3898527981
+			{
+				color:white;
+			}
+			nav.jsx-3898527981
+			{
+				position:fixed;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-box-pack:end;
+				-webkit-justify-content:flex-end;
+				-ms-flex-pack:end;
+				justify-content:flex-end;
+				width:100vw;
+				height:50px;
+				z-index:1;
+			}
+			nav.jsx-3898527981 ul#menu.jsx-3898527981
+			{
+				margin:0;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				list-style-type:none;
+				height:50px;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;
+				padding:0;
+				argin-right:70px;
+			}
+			nav.jsx-3898527981 ul#menu.jsx-3898527981 li.jsx-3898527981
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;
+				height:100%;
+			}
+			nav.jsx-3898527981 ul#menu.jsx-3898527981 li.jsx-3898527981 a.jsx-3898527981
+			{
+				text-transform:uppercase;
+				text-decoration:none;
+				color:white;
+				font-size:1.2em;
+				font-family:'Open Sans',sans-serif;
+			}
+			nav.jsx-3898527981 ul#menu.jsx-3898527981 li.jsx-3898527981+li.jsx-3898527981
+			{
+				margin-left:15px;
+				padding-left:15px;
+			}
+			@media (max-width:768px)
+			{
+				nav.jsx-3898527981 ul#menu.jsx-3898527981
+				{
+					font-size:0.4em;
+				}
+				nav.jsx-3898527981 ul#menu.jsx-3898527981 li.jsx-3898527981+li.jsx-3898527981
+				{
+					margin-left:5px;
+					padding-left:5px;
+				}
+			}
+			.dropdown.jsx-3898527981
+			{
+				position:absolute;
+				z-index:1000;
+				right:830px;
+				top:49px;
+				pointer-events:none;
+				opacity:0;
+				will-change:opacity;
+				-webkit-transition-property:opacity;
+				transition-property:opacity;
+				-webkit-transition-duration:.25s;
+				transition-duration:.25s;
+				display:block;
+			}
+			.dropdown-arrow.jsx-3898527981
+			{
+				position:absolute;
+				top:-6px;
+				left:465px;
+				margin:0 0 0 -6px;
+				width:12px;
+				height:12px;
+				border-radius:4px 0 0 0;
+				background:#fff;
+				box-shadow:-3px -3px 5px rgba(82,95,127,.04);
+				-webkit-transform:rotate(45deg);
+				-ms-transform:rotate(45deg);
+				transform:rotate(45deg);
+			}
+			.dropdown-background.jsx-3898527981
+			{
+				position:absolute;
+				top:0;
+				left:0;
+				background:#fff;
+				border-radius:4px;
+				overflow:hidden;
+				box-shadow:0 50px 100px rgba(50,50,93,.1),0 15px 35px rgba(50,50,93,.15),0 5px 15px rgba(0,0,0,.1);
+				width:690px;
+				height:340px;
+			}
+			.dropdown-container.jsx-3898527981
+			{
+				overflow:hidden;
+				position:absolute;
+				top:0;
+				left:0;
+				width:620px;
+				height:300px;
+				padding:20px 35px;
+			}
+			.dropdown.dropdown-active.jsx-3898527981,.dropdown.link-active.jsx-3898527981
+			{
+				opacity:1;
+				pointer-events:auto;
+				-webkit-transform:none;
+				-ms-transform:none;
+				transform:none;
+			}
+			.dropdown.dropdown-active.jsx-3898527981 .dropdown-background.jsx-3898527981,.dropdown.link-active.jsx-3898527981 .dropdown-background.jsx-3898527981
+			{
+				-webkit-transform:rotate(0) scaleX(1) scaleY(1);
+				-ms-transform:rotate(0) scaleX(1) scaleY(1);
+				transform:rotate(0) scaleX(1) scaleY(1);
+				-webkit-transform-origin:0 0;
+				-ms-transform-origin:0 0;
+				transform-origin:0 0;
+			}
+			.tools-group.jsx-3898527981
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-wrap:wrap;
+				-ms-flex-wrap:wrap;
+				flex-wrap:wrap;
+				margin:-5px -10px;
+				list-style:none;
+				padding:0;
+			}
+		</style>
+		<style id="__jsx-3231548900">
+			div.jsx-3231548900
+			{
+				text-align:center;padding-top:100px;padding-bottom:3em;
+			}
+			img.jsx-3231548900
+			{
+				height:150px;
+			}
+			h1.jsx-3231548900
+			{
+				font-weight:400;
+				font-family:'Quicksand',sans-serif;
+				font-size:2.8em;
+			}
+			p.jsx-3231548900
+			{
+				color:#797979;
+				font-size:1.3em;
+			}
+		</style>
+		<style id="__jsx-1626402373">
+			form.jsx-1626402373
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-direction:column;
+				-ms-flex-direction:column;
+				flex-direction:column;
+				-webkit-box-pack:center;
+				-webkit-justify-content:center;
+				-ms-flex-pack:center;
+				justify-content:center;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;
+			}
+			label.jsx-1626402373
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-direction:column;
+				-ms-flex-direction:column;
+				flex-direction:column;
+				padding:10px 0;
+				font-size:0.9em;
+				width:100%;
+			}
+			input.jsx-1626402373
+			{
+				border:1px #eee solid;
+				border-radius:2px;
+				background-color:#eee;
+				line-height:1.8em;
+				padding:5px 10px;
+			}
+			input.jsx-1626402373:invalid
+			{
+				box-shadow:none;
+			}
+			input[type="submit"].jsx-1626402373
+			{
+				margin:10px 0;
+				color:#fff;
+				text-align:center;
+				outline:0;
+				cursor:pointer;
+				border:none;
+				border-radius:2px;
+				padding:10px 20px;
+				-webkit-tap-highlight-color:transparent;
+				box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+				background-color:#26a69a;
+				font-family:'Marvel',sans-serif;
+				text-transform:uppercase;
+				-webkit-letter-spacing:0.6px;
+				-moz-letter-spacing:0.6px;
+				-ms-letter-spacing:0.6px;
+				letter-spacing:0.6px;
+			}
+			.small.jsx-1626402373
+			{
+				margin-top:65px;
+				color:#444;
+				font-size:0.8em;
+			}
+		</style>
+		<style id="__jsx-346431587">
+			p.jsx-346431587,div.jsx-346431587
+			{
+				margin:0;
+				margin-top:65px;
+				max-width:350px;
+				margin-left:auto;
+				margin-right:125px;
+				font-size:1.1em;
+				font-family:'Open Sans',sans-serif;
+				line-height:26px;
+			}
+			@media (min-width:768px)
+			{
+				section.jsx-346431587
+				{
+					width:50%;
+				}
+			}
+		</style>
+		<style id="__jsx-3638891963">
+			div.jsx-3638891963
+			{
+				background-color:#eee;
+				width:50%;
+				min-width:400px;
+			}
+			ul.jsx-3638891963
+			{
+				height:100%;
+				margin:0;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-direction:column;
+				-ms-flex-direction:column;
+				flex-direction:column;
+				-webkit-box-pack:space-around;
+				-webkit-justify-content:space-around;
+				-ms-flex-pack:space-around;
+				justify-content:space-around;
+				list-style-type:none;
+			}
+			li.jsx-3638891963
+			{
+				margin:1em 0;
+				font-size:1.1em;
+				max-width:400px;
+				display:inline-block;
+				position:relative;
+				padding-left:23px;
+			}
+			li.jsx-3638891963 img.jsx-3638891963
+			{
+				height:50px;
+				width:auto;
+				position:absolute;
+				left:-50px;
+			}
+			li.free.jsx-3638891963
+			{
+				color:#26a69a;
+			}
+			li.jsx-3638891963 p.jsx-3638891963
+			{
+				margin:0;
+				min-height:50px;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;
+				font-family:'Open Sans',sans-serif;
+				line-height:26px;
+			}
+		</style>
+		<style id="__jsx-1880657286">
+			.wrapper.jsx-1880657286
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-wrap:wrap;
+				-ms-flex-wrap:wrap;
+				flex-wrap:wrap;
+			}
+		</style>
+		<style id="__jsx-3873927885">
+			h2.jsx-3873927885
+			{
+				text-align:center;
+				margin:5em 0 2em;
+				font-size:2em;
+				font-weight:500;
+				font-family:'Quicksand',sans-serif;
+			}
+			.container.jsx-3873927885
+			{
+				position:relative;
+				height:0;
+				overflow:hidden;
+				padding-bottom:36vw;
+				width:64vw;
+				margin:auto;
+			}
+			iframe.jsx-3873927885
+			{
+				position:absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				}
+		</style>
+		<style id="__jsx-2493310968">
+			h2.jsx-2493310968
+			{
+				text-align:center;
+				margin:5em 0 2em;
+				font-size:2em;
+				font-weight:500;
+				font-family:'Quicksand',sans-serif;
+			}
+			ul.jsx-2493310968
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-wrap:wrap;
+				-ms-flex-wrap:wrap;
+				flex-wrap:wrap;
+				-webkit-box-pack:space-around;
+				-webkit-justify-content:space-around;
+				-ms-flex-pack:space-around;
+				justify-content:space-around;
+				list-style:none;
+				background-color:#eee;
+				padding:2em;
+			}
+			li.jsx-2493310968
+			{
+				border-radius:50%;
+				width:200px;
+				height:200px;
+				padding:6px;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-box-pack:center;
+				-webkit-justify-content:center;
+				-ms-flex-pack:center;
+				justify-content:center;
+				text-align:center;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;
+				background-color:#26a69a;
+				color:white;
+				line-height:1.4em;
+				font-size:1.2em;
+				font-family:'Open Sans',sans-serif;
+			}
+			li.jsx-2493310968:first-child
+			{
+				background-color:#fff;
+				color:#26a69a;
+			}
+		</style>
+		<style id="__jsx-318804898">
+			div.jsx-318804898
+			{
+				margin:4em 0;
+			}
+			ul.jsx-318804898
+			{
+				margin:auto;
+				max-width:460px;
+			}
+			h2.jsx-318804898
+			{
+				max-width:500px;
+				margin:2em auto;
+				font-family:'Quicksand',sans-serif;
+			}
+			li.jsx-318804898
+			{
+				margin-bottom:20px;
+				font-family:'Open Sans',sans-serif;
+			}
+			p.jsx-318804898
+			{
+				margin:auto;
+				max-width:460px;
+				color:#555;
+				line-height:1.6em;
+			}
+			.muted.jsx-318804898
+			{
+				color:#888;
+			}
+		</style>
+		<style id="__jsx-2155082703">
+			.links.jsx-2155082703
+			{
+				padding:4em 0;
+			}
+			h2.jsx-2155082703
+			{
+				text-align:center;
+				margin-top:0;
+				margin-bottom:2em;
+				font-size:2em;
+				font-weight:500;
+				font-family:'Quicksand',sans-serif;
+			}
+			.wrapper.jsx-2155082703
+			{
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-flex-wrap:wrap;
+				-ms-flex-wrap:wrap;
+				flex-wrap:wrap;
+				max-width:600px;
+				margin:auto;
+				-webkit-box-pack:center;
+				-webkit-justify-content:center;
+				-ms-flex-pack:center;
+				justify-content:center;
+			}
+			img.jsx-2155082703
+			{
+				max-height:20px;
+				margin-right:20px;
+			}
+			.wrapper.jsx-2155082703 a.jsx-2155082703
+			{
+				width:calc(49% - 3px);
+				border:1px solid white;
+				text-align:center;
+				padding:1em 0;
+				text-decoration:none;
+				font-family:'Marvel',sans-serif;
+				text-transform:uppercase;
+				color:#333;
+				font-size:1.4em;
+			}
+			.wrapper.jsx-2155082703 a.right.jsx-2155082703
+			{
+				border-left:none;
+			}
+		</style>
+		<style id="__jsx-2007064421">
+			section.jsx-2007064421
+			{
+				width:100%;
+				margin-top:2em;
+				display:-webkit-inline-box;
+				display:-webkit-inline-flex;
+				display:-ms-inline-flexbox;
+				display:inline-flex;
+				-webkit-flex-wrap:wrap;
+				-ms-flex-wrap:wrap;
+				flex-wrap:wrap;
+				-webkit-box-pack:center;
+				-webkit-justify-content:center;
+				-ms-flex-pack:center;
+				justify-content:center;
+				padding:2em 0;
+			}
+			h2.jsx-2007064421
+			{
+				font-weight:200;
+				font-size:1.5em;
+				font-family:'Quicksand',sans-serif;
+			}
+			p.jsx-2007064421
+			{
+				width:250px;
+				font-weight:200;
+				line-height:26px;
+			}
+			#simple.jsx-2007064421
+			{
+				color:#ff7b19;
+			}
+			#gratuit.jsx-2007064421
+			{
+				color:#29adad;
+			}
+			#collaboratif.jsx-2007064421
+			{
+				color:#fb2058;
+			}
+			div.jsx-2007064421
+			{
+				width:30%;
+				min-width:300px;
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				-webkit-align-items:center;
+				-webkit-box-align:center;
+				-ms-flex-align:center;
+				align-items:center;
+				-webkit-flex-direction:column;
+				-ms-flex-direction:column;
+				flex-direction:column;
+			}
+		</style>
+		<style id="__jsx-511178964">
+			footer.jsx-511178964
+			{
+				text-align:center;
+				padding:2em 0 4em;
+				font-family:'Quicksand',sans-serif;
+				background-color:#152b29;
+				color:white;
+			}
+			p.jsx-511178964
+			{
+				font-weight:normal;
+				font-size:2em;
+			}
+			a.jsx-511178964
+			{
+				color:white;
+				text-decoration:none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<div id="__next">
+				<div data-reactroot="">
+					<div>
+						<header class="jsx-3898527981">
+							<nav class="jsx-3898527981 dark">
+								<ul id="menu" class="jsx-3898527981">
+									<li class="jsx-3898527981"><a class="jsx-3898527981" href="/">Accueil</a></li>
+									<li id="les-outils" class="jsx-3898527981"><a class="jsx-3898527981" href="/outils/">Les outils</a></li>
+									<li id="je-projet" class="jsx-3898527981"><a class="jsx-3898527981" href="/projet/">Le projet</a></li>
+									<li class="jsx-3898527981"><a class="jsx-3898527981" href="/contact/">Contact</a></li>
+								</ul>
+								<div class="jsx-3898527981 dropdown">
+									<div class="jsx-3898527981 dropdown-background"></div>
+									<div class="jsx-3898527981 dropdown-arrow"></div>
+									<div class="jsx-3898527981 dropdown-container">
+										<ul class="jsx-3898527981 tools-group">
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/mobilisco/">
+													<img src="/static/arrow.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">MobiliSCO 7.2</h3>
+														<p class="jsx-686673499 tagline">Les voyages scolaires cessent d’être un enfer</p>
+													</div>
+												</a>
+											</li>
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/cedisco/">
+													<img src="/static/hat.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">CédiSCO 1.0</h3>
+														<p class="jsx-686673499 tagline">La procédure discplinaire sans anicroche</p>
+													</div>
+												</a>
+											</li>
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/opencartecomptable/">
+													<img src="/static/globe.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">OpenCarteComptable</h3>
+														<p class="jsx-686673499 tagline">Votre établissement fait-il partie du registre national des agences comptables ?</p>
+													</div>
+												</a>
+											</li>
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/gemasco/">
+													<img src="/static/book.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">GemaSCO 2.0</h3>
+														<p class="jsx-686673499 tagline">L’appli qui gère les manuels scolaires</p>
+													</div>
+												</a>
+											</li>
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/emaintenance/">
+													<img src="/static/wrench.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">E-maintenance</h3>
+														<p class="jsx-686673499 tagline">Réparer n&#x27;est plus un problème</p>
+													</div>
+												</a>
+											</li>
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/trombinosco/">
+													<img src="/static/logotrombi.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">TrombinoSCO 1.2</h3>
+														<p class="jsx-686673499 tagline">Les photos des élèves avec le sourire</p>
+													</div>
+												</a>
+											</li>
+											<li class="jsx-686673499 list-item">
+												<a class="jsx-686673499 link-container" href="/votre-projet/">
+													<img src="/static/lamp.png" alt="" class="jsx-686673499"/>
+													<div class="jsx-686673499 link-content">
+														<h3 class="jsx-686673499">Votre projet</h3>
+														<p class="jsx-686673499 tagline">L’open académicien, c’est vous</p>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</nav>
+						</header>
+
+						<div>
+							<main>
+								<div class="jsx-3231548900">
+									<img src="/static/logotrombi.png" alt="" class="jsx-3231548900"/>
+									<h1 style="color:#a31390" class="jsx-3231548900">CédiSCO 1.0</h1>
+									<p class="jsx-3231548900">La procédure disciplinaire sans anicroche</p>
+								</div>
+								<div class="jsx-1880657286 wrapper">
+									<section class="jsx-346431587">
+										<p class="jsx-346431587">Une solution intégrée pour suivre l'ensemble de la procédure sans risque d'erreur, pour un effort minimal</p>
+										<div class="jsx-346431587">
+											<form class="jsx-1626402373">
+												<label class="jsx-1626402373">Code Etablissement, RNE/UAI:
+													<input type="text" value="" required="" aria-required="true" class="jsx-1626402373"/>
+												</label>
+												<label class="jsx-1626402373">Email:
+													<input type="email" value="" required="" aria-required="true" class="jsx-1626402373"/>
+												</label>
+												<input type="submit" value="Télécharger" class="jsx-1626402373"/>
+												<div class="jsx-1626402373 small">CédiSCO 1.0<!-- --> fonctionne sur : Microsoft Access 2016, 2013, 2010. Si vous ne disposez pas de Microsoft Access vous pouvez 
+													<a class="jsx-1626402373" href="https://www.microsoft.com/fr-fr/download/details.aspx?id=10910">télécharger gratuitement le Runtime Access.</a>
+												</div>
+											</form>
+										</div>
+									</section>
+									<div class="jsx-3638891963">
+										<ul class="jsx-3638891963">
+											<li class="jsx-3638891963">
+												<img src="/static/check.png" class="jsx-3638891963"/>
+												<p class="jsx-3638891963">Envoie les convocations à l&#x27;élève traduit, aux membres du conseil et aux témoins</p>
+											</li>
+											<li class="jsx-3638891963">
+												<img src="/static/check.png" class="jsx-3638891963"/>
+												<p class="jsx-3638891963">Assiste le président de séance, et permet au secrétaire de séance de produire un PV complet immédiatement</p>
+											</li>
+											<li class="jsx-3638891963">
+												<img src="/static/check.png" class="jsx-3638891963"/>
+												<p class="jsx-3638891963">Notifie la décision, compilée dans le registre des sanctions de l'EPLE</p>
+											</li>
+											<li class="jsx-3638891963">
+												<img src="/static/check.png" class="jsx-3638891963"/>
+												<p class="jsx-3638891963 free">Libre et gratuit</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="jsx-3873927885">
+									<h2 class="jsx-3873927885">Qui utilise CédiSCO ?</h2>
+									<div class="jsx-3873927885 container">
+										<iframe src="https://www.google.com/maps/d/embed?mid=1Jfi6lLgHjqiQ-C92aeyFbHius3mbFxB7" class="jsx-3873927885"></iframe>
+									</div>
+								</div>
+								<div class="jsx-2493310968">
+									<h2 class="jsx-2493310968">Comment ça marche ?</h2>
+									<ul class="jsx-2493310968">
+										<li class="jsx-2493310968">Télécharger</li>
+										<li class="jsx-2493310968">Importer la base élèves et la base des personnels</li>
+										<li class="jsx-2493310968">Sélectionner les membres du conseil de discipline</li>
+										<li class="jsx-2493310968">Démarrer la première procédure</li>
+									</ul>
+								</div>
+								<div class="jsx-2155082703 links">
+									<h2 class="jsx-2155082703">Pour + d&#x27;infos</h2>
+									<div class="jsx-2155082703 wrapper">
+										<a style="border-color:#a31390" href="https://gestionnaires.actifforum.com/t40465p30-cedisco-les-conseils-de-discipline-passent-a-la-moulinette-openacademie#615835" target="_blank" class="jsx-2155082703"><img src="/static/icon-forum.png" alt="" class="jsx-2155082703"/>Forum</a>
+									</div>
+								</div>
+								<section class="jsx-2007064421">
+									<div class="jsx-2007064421">
+										<h2 id="simple" class="jsx-2007064421">Simple</h2>
+										<p class="jsx-2007064421">Comme tous les outils Open Académie, CédiSCO vise à simplifier concrètement vos opérations de gestion des établissements scolaires. CédiSCO simplifie et sécurise la procédure disciplinaire, ce qui notamment permet de rescolariser plus vite un élève exclu.</p>
+									</div>
+									<div class="jsx-2007064421">
+										<h2 id="gratuit" class="jsx-2007064421">Gratuit</h2>
+										<p class="jsx-2007064421">Elaboré par des agents du service public pour eux-mêmes et leurs collègues, CédiSCO est libre et gratuit. Cette liberté est matérialisée par la licence EUPL 1.2, validée par l'Union Européenne dans ses 17 langues officielles.</p>
+									</div>
+									<div class="jsx-2007064421">
+										<h2 id="collaboratif" class="jsx-2007064421">Collaboratif</h2>
+										<p class="jsx-2007064421">Nos outils sont en amélioration continue. Leur développement se construit à partir de l’expérience des utilisateurs. Dites-nous ce que vous utilisez, signalez-nous un défaut ou suggérez une amélioration … Open Académie vous appartient !</p>
+									</div>
+								</section>
+							</main>
+						</div>
+						<footer class="jsx-511178964">
+							<p class="jsx-511178964">Open Académie</p>
+							<a href="mailto:contact@openacademie.beta.gouv.fr" class="jsx-511178964">contact@openacademie.beta.gouv.fr</a>
+						</footer>
+					</div>
+				</div>
+			</div>
+			<div id="__next-error"></div>
+		</div>
+		<div>
+			<script>
+	          __NEXT_DATA__ = {"props":{},"pathname":"/cedisco","query":{},"buildId":"abbc0563-0777-4ba1-b419-55e19f409694","buildStats":{"app.js":{"hash":"d3982f870acb8073600a441159795bcf"}},"assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+	          module={}
+	          __NEXT_LOADED_PAGES__ = []
+	          __NEXT_LOADED_CHUNKS__ = []
+
+	          __NEXT_REGISTER_PAGE = function (route, fn) {
+	            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+	          }
+
+	          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+	            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+	          }
+	        </script>
+        	<script async="" id="__NEXT_PAGE__/cedisco" type="text/javascript" src="/_next/abbc0563-0777-4ba1-b419-55e19f409694/page/cedisco.js"></script>
+        	<script async="" id="__NEXT_PAGE__/_error" type="text/javascript" src="/_next/abbc0563-0777-4ba1-b419-55e19f409694/page/_error.js"></script>
+        	<div></div>
+        	<script type="text/javascript" src="/_next/d3982f870acb8073600a441159795bcf/app.js" async=""></script>
+    	</div>
+	</body>
+</html>
