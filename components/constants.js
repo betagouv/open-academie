@@ -29,33 +29,7 @@ export const Products = [
       },
     ],
   },
-  {
-    id: 'bourse',
-    page: '/bourse',
-    title: 'Bourse',
-    tagline: 'Vos demandes de bourses sans papier',
-    description: 'Bourse est un outil de demande en ligne de bourse de collège, pour le bonheur des intendants comme des parents',
-    imageSource: '/static/hat.png',
-    color: '#29adad',
-    background: '',
-    downloadLink: {
-      label: 'bourse.beta.gouv.fr',
-      href: 'https://bourse.beta.gouv.fr',
-    },
-    externalLinks: [
-      {
-        icon: '/static/icon-forum.png',
-        label: 'FAQ',
-        href: 'https://github.com/sgmap/bourses/wiki/FAQ',
-      },
-      {
-        icon: '/static/icon-video.png',
-        label: 'Tutoriel',
-        href: 'https://www.youtube.com/watch?v=7iErHZXDN6A',
-      },
-    ],
-  },
-  {
+   {
     id: 'opencartecomptable',
     page: '/opencartecomptable',
     title: 'OpenCarteComptable',
@@ -142,6 +116,34 @@ export const Products = [
       },
     ],
   },
+    {
+    id: 'cedisco',
+    page: '/cedisco',
+    title: 'CédiSCO 1.0',
+    formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
+    emailEntryRef: '843103382',
+    pageEntryRef: '89190430',
+    downloadUrl: '/static/files/CédiSCO_1-0.zip',
+    tagline: 'Les conseils de discipline sans souci de procédure',
+    description: 'CédiSCO assure l\'ensemble du travail de procédure pour le conseil de discipline, sans risque d\'erreur et sans effort.',
+    imageSource: '/static/balance.png',
+    color: '#ff7b19',
+    background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
+    salesPoints: [
+      'Edition des convocations pour l\'élève, sa famille, les membres du conseil et les témoins',
+      'Conducteur de procédure pour le président de séance',
+      'Secrétariat de séance semi-automatique en temps réel',
+      'Procès-verbal et notification immédiats',
+      'Registre des sanctions de l\'EPLE',
+    ],
+    externalLinks: [
+      {
+        icon: '/static/icon-video.png',
+        label: 'Tutoriels',
+        href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
+      }
+  ]},
   {
     id: 'votre-projet',
     page: '/votre-projet',
