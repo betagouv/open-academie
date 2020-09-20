@@ -2,7 +2,7 @@ module.exports = {
   exportPathMap: function () {
     return {
       "/": { page: "/" },
-      "/bourse": { page: "/bourse" },
+      "/cedisco": { page: "/cedisco" },
       "/contact": { page: "/contact" },
       "/emaintenance": { page: "/emaintenance" },
       "/gemasco": { page: "/gemasco" },
