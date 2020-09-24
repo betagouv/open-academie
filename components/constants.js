@@ -147,7 +147,7 @@ export const Products = [
         icon: '/static/icon-video.png',
         label: 'Tutoriels',
         href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
-      }
+      },
       {
         icon: '/static/icon-forum.png',
         label: 'Forum',
