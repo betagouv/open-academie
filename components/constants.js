@@ -132,7 +132,7 @@ export const Products = [
     tagline: 'Les conseils de discipline sans souci de procédure',
     description: 'CédiSCO assure l\'ensemble du travail de procédure pour le conseil de discipline, sans risque d\'erreur et sans effort.',
     imageSource: '/static/balance.png',
-    color: '#ff7b19',
+    color: '#c40207',
     background: '',
     mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
     salesPoints: [
