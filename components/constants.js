@@ -109,6 +109,11 @@ export const Products = [
       'Permet des impressions sur autocollants pour le dépannage',
     ],
     externalLinks: [
+            {
+        icon: '/static/icon-video.png',
+        label: 'Tutoriels',
+        href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
+      },
       {
         icon: '/static/icon-forum.png',
         label: 'Forum',
@@ -143,6 +148,11 @@ export const Products = [
         label: 'Tutoriels',
         href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
       }
+      {
+        icon: '/static/icon-forum.png',
+        label: 'Forum',
+        href: 'httphttps://gestionnaires.actifforum.com/t40465-cedisco-les-conseils-de-discipline-passent-a-la-moulinette-openacademie',
+      },
   ]},
   {
     id: 'votre-projet',
