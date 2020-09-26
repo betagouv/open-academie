@@ -151,7 +151,7 @@ export const Products = [
       {
         icon: '/static/icon-forum.png',
         label: 'Forum',
-        href: 'httphttps://gestionnaires.actifforum.com/t40465-cedisco-les-conseils-de-discipline-passent-a-la-moulinette-openacademie',
+        href: 'https://gestionnaires.actifforum.com/t40465-cedisco-les-conseils-de-discipline-passent-a-la-moulinette-openacademie',
       },
   ]},
   {
