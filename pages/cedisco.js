@@ -34,8 +34,7 @@ const Cedisco = () => (
         `}</style>
       </div>
 
-      <Iframe title="Qui utilise CédiSCO ?" url={constant.mapUrl} />
-
+ 
       <HowToSteps
         steps={[
           'Télécharger',
