@@ -128,7 +128,7 @@ export const Products = [
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
     pageEntryRef: '89190430',
-    downloadUrl: '/static/files/cediSCO_1-0-1.zip',
+    downloadUrl: '/static/files/CédiSCO_1-0-1.zip',
     tagline: 'Les conseils de discipline sans souci de procédure',
     description: 'CédiSCO assure l\'ensemble du travail de procédure pour le conseil de discipline, sans risque d\'erreur et sans effort.',
     imageSource: '/static/balance.png',
