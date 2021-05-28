@@ -154,6 +154,35 @@ export const Products = [
         href: 'https://gestionnaires.actifforum.com/t40465-cedisco-les-conseils-de-discipline-passent-a-la-moulinette-openacademie',
       },
   ]},
+   {
+    id: 'ribsco',
+    page: '/ribsco',
+    title: 'RibSCO 1.0',
+    downloadUrl: '/static/files/RibSCO_1-0.zip',
+    tagline: 'Vérifiez vos fichiers de paiement en un clin d\'oeil',
+    description: 'Soumettez vos fichiers XML de règlement ou de prélèvement à RibSCO et vous saurez immédiatement s\'ils contiennent une erreur',
+    imageSource: '/static/RibSCO_CCBY_ParkJisun.png',
+    color: '#24b47e',
+    background: '',
+    salesPoints: [
+      'Téléchargez et ouvrez l\'application',
+      'Soumettez un fichier XML',
+      'Rapport immédiat sur toute anomalie détectée dans les coordonnées bancaires',
+    ],
+    externalLinks: [
+      {
+        icon: '/static/icon-forum.png',
+        label: 'Forum',
+        href: 'https://gestionnaires.actifforum.com/t41662-ribsco-detecte-en-une-seconde-toute-erreur-dans-les-bic-et-les-rib#639553',
+      },
+      {
+        icon: '/static/icon-video.png',
+        label: 'Tutoriels',
+        href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
+      },
+    ],
+  },
+  
   {
     id: 'votre-projet',
     page: '/votre-projet',
