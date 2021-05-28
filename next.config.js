@@ -8,6 +8,7 @@ module.exports = {
       "/gemasco": { page: "/gemasco" },
       "/mobilisco": { page: "/mobilisco" },
       "/trombinosco": { page: "/trombinosco" },
+      "/ribsco": { page: "/ribsco" },
       "/opencartecomptable": { page: "/opencartecomptable" },
       "/outils": { page: "/outils" },
       "/projet": { page: "/projet" },
