@@ -54,4 +54,4 @@ const ribsco = () => (
   </Layout>
 )
 
-export default Cedisco
+export default ribsco
