@@ -39,7 +39,7 @@ const ribsco = () => (
         steps={[
           'Télécharger',
           'Soumettre un fichier de paiement ou prélèvement XML à vérification',
-          'Ortenir un rapport sur les éventuelles erreurs de coordonnées bancaires'
+          'Obtenir un rapport sur les éventuelles erreurs de coordonnées bancaires',
           'Co-construire une base des codes BIC à jour'
         ]}
       />
