@@ -164,6 +164,7 @@ export const Products = [
     imageSource: '/static/RibSCO_CCBY_ParkJisun.png',
     color: '#24b47e',
     background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
     salesPoints: [
       'Téléchargez et ouvrez l\'application',
       'Soumettez un fichier XML',
@@ -182,7 +183,6 @@ export const Products = [
       },
     ],
   },
-  
    {
     id: 'effesco',
     page: '/effesco',
@@ -212,7 +212,6 @@ export const Products = [
       },
     ],
   },
-  
   {
     id: 'votre-projet',
     page: '/votre-projet',
