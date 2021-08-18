@@ -195,7 +195,7 @@ export const Products = [
     background: '',
     salesPoints: [
       'Formulaires de demande d\'aide pré-remplis',
-      'Acte du CA pour les modalités de l\aide puis compte-rendu annuel d\'activité',
+      'Acte du CA pour les modalités de l\'aide puis compte-rendu annuel d\'activité',
       'Pré-calcul des montants attribués, suivi des financements disponibles, pièces justificatives comptables',
     ],
     externalLinks: [
