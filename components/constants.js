@@ -183,6 +183,36 @@ export const Products = [
     ],
   },
   
+   {
+    id: 'effesco',
+    page: '/effesco',
+    title: 'EffeSCO 1.0.0',
+    formUrl: 'https://docs.google.com/forms/d/1NmOvwDBvewcF_F68_tsugW_jv_4_5aX98mVk-bajzdY/formResponse?entry.162101201=',
+    downloadUrl: '/static/files/EffeSCO_1-0-0.zip',
+    tagline: 'Les aides sociales enfin faciles et rapides',
+    description: 'Un logiciel de gestion du fonds social, depuis les demandes pré-remplies jusqu\’à la pièce justificative comptable',
+    imageSource: '/static/blue_handshake.png',
+    color: '#0a938f',
+    background: '',
+    salesPoints: [
+      'Formulaires de demande d\'aide pré-remplis',
+      'Acte du CA pour les modalités de l\aide puis compte-rendu annuel d\'activité ',
+      'Pré-calcul des montants attribués, suivi des financements disponibles, pièces justificatives comptables',
+    ],
+    externalLinks: [
+      {
+        icon: '/static/icon-forum.png',
+        label: 'Forum',
+        href: 'http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils',
+      },
+      {
+        icon: '/static/icon-video.png',
+        label: 'Tutoriels',
+        href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
+      },
+    ],
+  },
+  
   {
     id: 'votre-projet',
     page: '/votre-projet',
