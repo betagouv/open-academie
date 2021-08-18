@@ -164,7 +164,6 @@ export const Products = [
     imageSource: '/static/RibSCO_CCBY_ParkJisun.png',
     color: '#24b47e',
     background: '',
-    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
     salesPoints: [
       'Téléchargez et ouvrez l\'application',
       'Soumettez un fichier XML',
@@ -196,7 +195,7 @@ export const Products = [
     background: '',
     salesPoints: [
       'Formulaires de demande d\'aide pré-remplis',
-      'Acte du CA pour les modalités de l\aide puis compte-rendu annuel d\'activité ',
+      'Acte du CA pour les modalités de l\aide puis compte-rendu annuel d\'activité',
       'Pré-calcul des montants attribués, suivi des financements disponibles, pièces justificatives comptables',
     ],
     externalLinks: [
