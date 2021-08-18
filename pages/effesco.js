@@ -40,7 +40,7 @@ const effesco = () => (
           'Télécharger',
           'Importer la base élèves SIECLE',
           'Indiquer les paramètres de la politique sociale de l\'établissement',
-          'Saisir les demandes des familles'
+          'Saisir les demandes des familles',
           'Convoquer la commission sociale, saisir les décisions'
         ]}
       />
