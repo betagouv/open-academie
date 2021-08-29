@@ -29,29 +29,14 @@ export const Products = [
       },
     ],
   },
-   {
-    id: 'opencartecomptable',
-    page: '/opencartecomptable',
-    title: 'OpenCarteComptable',
-    tagline: 'Votre établissement fait-il partie du registre national des agences comptables ?',
-    description: 'Permettre à chaque agent de consulter les composantes de l\'agence comptable. Donner une photographie nationale de la carte des agences comptables et des éléments de comparaison.',
-    imageSource: '/static/globe.png',
-    color: '#ff6969',
-    background: '',
-    salesPoints: [
-      'Connaître le détail de l\'agence comptable où je compte muter',
-      'Comparer la taille des agences selon les académies',
-      'Mis à jour par la communauté, en mode wiki'
-    ]
-  },
   {
     id: 'gemasco',
     page: '/gemasco',
-    title: 'GemaSCO 3.2.4',
+    title: 'GemaSCO 3.2.5',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
     pageEntryRef: '89190430',
-    downloadUrl: '/static/files/GemaSCO_v3-2-4.zip',
+    downloadUrl: '/static/files/GemaSCO_v3-2-5.zip',
     tagline: 'L’appli qui gère les manuels scolaires',
     description: 'GemaSCO commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
     imageSource: '/static/book.png',
@@ -77,17 +62,6 @@ export const Products = [
         href: 'http://gestionnaires.actifforum.com/f23-openacademie-et-ses-outils',
       },
     ],
-  },
-  {
-    id: 'emaintenance',
-    page: '/emaintenance',
-    title: 'E-maintenance',
-    tagline: 'Réparer n\'est plus un problème',
-    description: 'L\'appli e-maintenance permet l\'entretien et la gestion de tout type de matériel au sein d\'un établissement, de l\'ampoule grillée au rétroprojecteur en panne.',
-    imageSource: '/static/wrench.png',
-    color: '#7dd2c2',
-    background: '',
-    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
   },
   {
     id: 'trombinosco',
@@ -210,6 +184,32 @@ export const Products = [
         href: 'https://tube.ac-lyon.fr/video-channels/openacademie_channel/videos',
       },
     ],
+  },
+    {
+    id: 'opencartecomptable',
+    page: '/opencartecomptable',
+    title: 'OpenCarteComptable',
+    tagline: 'Votre établissement fait-il partie du registre national des agences comptables ?',
+    description: 'Permettre à chaque agent de consulter les composantes de l\'agence comptable. Donner une photographie nationale de la carte des agences comptables et des éléments de comparaison.',
+    imageSource: '/static/globe.png',
+    color: '#ff6969',
+    background: '',
+    salesPoints: [
+      'Connaître le détail de l\'agence comptable où je compte muter',
+      'Comparer la taille des agences selon les académies',
+      'Mis à jour par la communauté, en mode wiki'
+    ]
+  },
+  {
+    id: 'emaintenance',
+    page: '/emaintenance',
+    title: 'E-maintenance',
+    tagline: 'Réparer n\'est plus un problème',
+    description: 'L\'appli e-maintenance permet l\'entretien et la gestion de tout type de matériel au sein d\'un établissement, de l\'ampoule grillée au rétroprojecteur en panne.',
+    imageSource: '/static/wrench.png',
+    color: '#7dd2c2',
+    background: '',
+    mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
   },
   {
     id: 'votre-projet',
