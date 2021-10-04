@@ -37,7 +37,7 @@ const effesco = () => (
  
       <HowToSteps
         steps={[
-          'Télécharger',
+          'Télécharger - mot de passe par défaut : dada',
           'Importer la base élèves SIECLE',
           'Indiquer les paramètres de la politique sociale de l\'établissement',
           'Saisir les demandes des familles',
