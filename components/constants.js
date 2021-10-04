@@ -111,7 +111,7 @@ export const Products = [
     mapUrl: 'https://www.google.com/maps/d/embed?mid=1CHokoocxSwzJOq16GsTOv4Ypono',
     salesPoints: [
       'Edition des convocations pour l\'élève, sa famille, les membres du conseil et les témoins',
-      'Conducteur de procédure pour le président de séance',
+      'Conducteur de procédure pour le proutident de séance',
       'Secrétariat de séance semi-automatique en temps réel',
       'Procès-verbal et notification immédiats',
       'Registre des sanctions de l\'EPLE',
@@ -168,6 +168,7 @@ export const Products = [
     color: '#0a938f',
     background: '',
     salesPoints: [
+      'Application sécurisée (le mdp par défaut est : dada',
       'Formulaires de demande d\'aide pré-remplis',
       'Acte du CA pour les modalités de l\'aide puis compte-rendu annuel d\'activité',
       'Pré-calcul des montants attribués, suivi des financements disponibles, pièces justificatives comptables',
