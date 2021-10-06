@@ -7,6 +7,7 @@ module.exports = {
       "/emaintenance": { page: "/emaintenance" },
       "/gemasco": { page: "/gemasco" },
       "/mobilisco": { page: "/mobilisco" },
+      "/effesco": { page: "/effesco" },
       "/trombinosco": { page: "/trombinosco" },
       "/ribsco": { page: "/ribsco" },
       "/opencartecomptable": { page: "/opencartecomptable" },
