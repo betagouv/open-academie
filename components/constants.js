@@ -32,11 +32,11 @@ export const Products = [
   {
     id: 'gemasco',
     page: '/gemasco',
-    title: 'GemaSCO 3.2.5',
+    title: 'GemaSCO 3.4.0',
     formUrl: 'https://docs.google.com/forms/d/1AcTYcJrqYufC7N8SUeWzC1EpID0kprPHjTNq8Z5JOuk/formResponse?entry.1936573090=',
     emailEntryRef: '843103382',
     pageEntryRef: '89190430',
-    downloadUrl: '/static/files/GemaSCO_v3-2-5.zip',
+    downloadUrl: '/static/files/GemaSCO_v3-4-0.zip',
     tagline: 'L’appli qui gère les manuels scolaires',
     description: 'GemaSCO commande, distribue, récupère et fait même l’inventaire de vos manuels scolaires !',
     imageSource: '/static/book.png',
