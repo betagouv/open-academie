@@ -6,7 +6,7 @@
   "homepage": "https://sgmap.github.io/open-academie-next",
   "dependencies": {
     "gh-pages": "^1.1.0",
-    "next": "^4.2.0",
+    "next": "^11.1.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
